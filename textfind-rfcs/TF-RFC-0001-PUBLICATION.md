@@ -222,3 +222,9 @@ The system MUST explicitly prevent:
 
 
 This specification defines execution as a **first-class verifiable construct**, not an emergent property of system logs.
+
+## License
+
+This document is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+
+You are free to share and adapt this material for any purpose, provided appropriate credit is given to the author.
