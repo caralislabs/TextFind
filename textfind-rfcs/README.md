@@ -9,3 +9,6 @@ This repository contains technical specifications defining execution governance 
 
 These documents define execution as a first-class verifiable construct, rather than an emergent property of system logs.
 
+## Execution Model
+
+![Execution Model](./diagrams/execution-receipt-graph.png)
