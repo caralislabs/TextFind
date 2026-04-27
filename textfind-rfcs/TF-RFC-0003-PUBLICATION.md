@@ -155,7 +155,9 @@ Outcomes SHOULD be defined in a way that enables cross-system comparability and 
 
 ## 5. Traceability Model
 
-Execution MUST produce a trace graph:
+Execution MUST produce a trace graph representing the causal flow of execution.
+
+The execution trace links capability transformation to opportunity matching and final outcome evaluation.
 
 ```json
 {
@@ -275,6 +277,7 @@ This document establishes prior art for:
 * Execution-bound outcome modeling
 * Context propagation across systems
 * Policy-controlled distributed execution
+* Cross-system causal traceability and outcome linkage
 
 ---
 
