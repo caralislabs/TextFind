@@ -1,15 +1,45 @@
 # TextFind RFCs
 
-This repository contains technical specifications defining execution governance and verifiable execution models.
+This repository contains the public architectural RFCs for the TextFind platform.
 
-## RFCs
+These documents define the foundational models behind execution governance, provenance, and system control in AI systems.
 
-- TF-RFC-0001: Execution Receipts
-- TF-RFC-0002: Execution Provenance Graph (EPG)
-- TF-RFC-0003: Cross-Platform Execution & Outcome Protocol (XPO)
+---
 
-These documents define execution as a first-class verifiable construct, rather than an emergent property of system logs.
+## RFC Index
 
-## Execution Model
+- **TF-RFC-0001** — Execution Receipts  
+  Verifiable records of execution decisions and outcomes.
 
-![Execution Model](./diagrams/execution-receipt-graph.png)
+- **TF-RFC-0002** — Execution Provenance Graph (EPG)  
+  Modeling causality and traceability across execution steps.
+
+- **TF-RFC-0003** — XPO (Execution Policy Orchestration)  
+  Policy-driven control of execution behavior at runtime.
+
+- **TF-RFC-0004** — EGM (Execution Governance Model)
+  Controlling AI Systems at the Point of Action
+
+
+---
+
+## Upcoming
+
+- **TF-RFC-0004** — Execution Governance Model (EGM) *(in progress)*
+
+---
+
+## Why this matters
+
+Modern AI systems require control at execution time—not just monitoring or validation.
+
+These RFCs define a model where:
+- actions are enforced at runtime  
+- execution is bounded  
+- control is provable  
+
+---
+
+## Author
+
+CaralisLabs / TextFind
