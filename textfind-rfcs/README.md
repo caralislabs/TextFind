@@ -36,8 +36,6 @@ See [LEGAL.md](./LEGAL.md) for intellectual property and usage terms.
 - **TF-RFC-0006** — Execution-Time Governance for Agentic Systems
   A Runtime Control Architecture for AI Execution.
 
-Execution-Time Governance for Agentic Systems
-
 ---
 
 
