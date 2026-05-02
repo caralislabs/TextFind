@@ -1,3 +1,8 @@
+## Publications
+
+See [PUBLICATIONS.md](./PUBLICATIONS.md) for related posts and discussions.
+
+
 # TextFind RFCs
 
 This repository contains the public architectural RFCs for the TextFind platform.
