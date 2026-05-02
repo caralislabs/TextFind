@@ -5,7 +5,7 @@
 ---
 
 **Status:** Draft  
-**Version:** 1.0  
+**Version:** 1.1  
 **Author:** Nicolae Dumitru Caralicea  
 **Organization:** CaralisLabs / TextFind  
 **Created:** 2026-05-02  
@@ -99,7 +99,7 @@ Workflows must be:
 - observable  
 - decomposed into steps  
 
-Execution should not be embedded implicitly in application logic.
+Execution must not be embedded implicitly in application logic.
 
 ---
 
@@ -110,6 +110,8 @@ Define:
 - what actions are allowed  
 - under what conditions  
 - by which actors (human or AI)
+
+Execution must always be evaluated within these boundaries.
 
 ---
 
@@ -133,7 +135,9 @@ AI systems must operate as:
 - context-aware components  
 - constrained contributors to workflows  
 
-AI should not act as an unconstrained, system-wide actor.
+AI must not operate as an unconstrained, system-wide actor.
+
+All AI-driven actions must occur within defined execution boundaries where they can be evaluated and controlled.
 
 ---
 
@@ -186,6 +190,8 @@ Define:
 - ownership per pipeline  
 - accountability for outcomes  
 - clear responsibility boundaries  
+
+Every execution flow must have a clearly defined owner responsible for its behavior and outcomes.
 
 Avoid shared or implicit ownership.
 
@@ -252,6 +258,19 @@ Symptoms:
 
 ---
 
+### 6.4 Automation Without Execution Model
+
+- pipelines exist but are not explicitly modeled  
+- execution is embedded in code  
+- system behavior is difficult to reason about  
+
+Result:
+- high coordination cost  
+- fragile systems  
+- poor scalability  
+
+---
+
 ## 7. Execution Implications
 
 Organizations adopting this model should:
@@ -276,7 +295,15 @@ Together, they form a unified execution architecture.
 
 ---
 
-## 9. Claims Scope (Informal)
+## 9. Key Statement
+
+> AI adoption fails when it is treated as a tooling problem.  
+>  
+> It succeeds when it is treated as an execution architecture problem.
+
+---
+
+## 10. Claims Scope (Informal)
 
 This document establishes prior art for:
 
@@ -288,21 +315,24 @@ This document establishes prior art for:
 
 ---
 
-## 10. License
+## 11. License
 
 This document is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
 ---
 
-## 11. Final Note
+## 12. Final Note
 
-AI adoption is not primarily a tooling decision.
+AI adoption is not a tooling decision.
 
-It is an architectural decision.
+It is a decision about how execution is:
+
+- structured  
+- controlled  
+- and scaled  
 
 > AI does not replace the need for system design.  
 >  
 > It makes it unavoidable.
 
----
 
