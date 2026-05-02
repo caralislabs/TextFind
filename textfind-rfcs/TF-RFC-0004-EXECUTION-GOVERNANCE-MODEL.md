@@ -338,38 +338,79 @@ A system implementing the Execution Governance Model MUST guarantee:
 
 ---
 
-## 14. IP & Licensing Considerations
+## IP & Licensing Considerations
 
-This RFC is intended as a **publication-grade disclosure** to:
+This document is a public disclosure intended to:
 
-* establish prior art for execution-time governance models
-* enable open discussion and architectural evolution
-* protect conceptual approaches to system-level enforcement
+- establish prior art for the concepts described herein  
+- document authorship and evolution of the proposed models  
+- enable open discussion and architectural exploration  
 
-Implementations may:
+All concepts, models, and frameworks described in this document are:
 
-* extend this model
-* integrate with existing identity and policy systems
-* optimize enforcement mechanisms
+- authored and published by the author prior to any external engagement  
+- part of an ongoing body of work related to execution architecture and AI system design  
 
-This document does not grant rights to any specific implementation, internal architecture, or proprietary execution system.
+### Pre-Existing Intellectual Property
+
+All intellectual property described in this document constitutes **pre-existing work** of the author.
+
+Any future collaboration, consulting engagement, or implementation:
+
+- does not grant ownership over the concepts described herein  
+- does not transfer rights to the underlying models, frameworks, or architectural approaches  
+- must be governed by explicit agreement if derivative work ownership is to be assigned  
+
+### Scope of Use
+
+This document permits:
+
+- discussion and reference  
+- implementation and adaptation of ideas  
+- extension within other systems  
+
+However, this document does not grant:
+
+- exclusive rights to the concepts  
+- ownership of the original frameworks  
+- rights to proprietary implementations derived from the author's work  
+
+### Implementation Distinction
+
+A distinction is made between:
+
+- **Conceptual Models (this document)** → publicly disclosed and attributable  
+- **Implementations (systems, platforms, code)** → may be proprietary and independently owned  
+
+### No Implicit Assignment
+
+No rights, ownership, or claims are transferred implicitly through:
+
+- access to this document  
+- discussion of its contents  
+- application of its ideas  
+
+Any assignment of rights must be:
+
+- explicit  
+- documented  
+- mutually agreed upon  
 
 ---
 
-## 15. License
+## License
 
 This document is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
 You are free to:
 
-* Share  
-* Adapt  
-* Build upon  
+- Share  
+- Adapt  
+- Build upon  
 
 Provided that:
 
-* Proper credit is given to the author.
-
+- Proper credit is given to the author.
 ---
 
 ## 16. Final Note

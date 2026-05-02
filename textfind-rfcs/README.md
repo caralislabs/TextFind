@@ -4,6 +4,11 @@ This repository contains the public architectural RFCs for the TextFind platform
 
 These documents define the foundational models behind execution governance, provenance, and system control in AI systems.
 
+All RFCs in this repository constitute public disclosures and establish prior art for the concepts described.
+
+
+See [LEGAL.md](./LEGAL.md) for intellectual property and usage terms.
+
 ---
 
 ## RFC Index
@@ -39,4 +44,5 @@ These RFCs define a model where:
 
 ## Author
 
+Nicole Dumitru Caralicea
 CaralisLabs / TextFind
