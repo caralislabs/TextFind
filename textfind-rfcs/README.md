@@ -20,14 +20,11 @@ These documents define the foundational models behind execution governance, prov
 - **TF-RFC-0004** — EGM (Execution Governance Model)
   Controlling AI Systems at the Point of Action
 
+- **TF-RFC-0005** — AI Adoption Guidelines  
+  A structured approach to integrating AI within organizations.
 
 ---
 
-## Upcoming
-
-- **TF-RFC-0004** — Execution Governance Model (EGM) *(in progress)*
-
----
 
 ## Why this matters
 
