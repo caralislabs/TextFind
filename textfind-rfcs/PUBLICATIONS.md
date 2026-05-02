@@ -42,6 +42,10 @@ These materials serve as:
 
 ## Execution Governance (TF-RFC-0004)
 
+- **Title:** Execution-Time Governance: Controlling How AI Agents Act  
+  **Link:** https://www.linkedin.com/posts/nicolae-dumitru-caralicea-136753277_ai-agenticai-artificialintelligence-activity-7456354249732608000-gjMC
+
+
 - **Title:** The Real Governance Problem in AI Isn’t Loss of Control  
   **Link:** https://www.linkedin.com/posts/nicolae-dumitru-caralicea-136753277_ai-aigovernance-systemdesign-activity-7456088031880491008-4xKS  
 
