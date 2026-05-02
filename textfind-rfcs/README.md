@@ -20,10 +20,10 @@ See [LEGAL.md](./LEGAL.md) for intellectual property and usage terms.
   Modeling causality and traceability across execution steps.
 
 - **TF-RFC-0003** — XPO (Execution Policy Orchestration)  
-  Policy-driven control of execution behavior at runtime.
+  Cross-Platform Execution & Outcome Protocol (XPO).
 
 - **TF-RFC-0004** — EGM (Execution Governance Model)
-  Controlling AI Systems at the Point of Action
+  Controlling AI Systems at the Point of Action.
 
 - **TF-RFC-0005** — AI Adoption Guidelines  
   A structured approach to integrating AI within organizations.
@@ -44,5 +44,5 @@ These RFCs define a model where:
 
 ## Author
 
-Nicole Dumitru Caralicea
+Nicolae Dumitru Caralicea  
 CaralisLabs / TextFind

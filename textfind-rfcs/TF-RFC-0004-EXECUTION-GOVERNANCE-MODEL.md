@@ -411,6 +411,7 @@ You are free to:
 Provided that:
 
 - Proper credit is given to the author.
+
 ---
 
 ## 16. Final Note
