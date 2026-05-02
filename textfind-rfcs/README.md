@@ -33,6 +33,11 @@ See [LEGAL.md](./LEGAL.md) for intellectual property and usage terms.
 - **TF-RFC-0005** — AI Adoption Guidelines  
   A structured approach to integrating AI within organizations.
 
+- **TF-RFC-0006** — Execution-Time Governance for Agentic Systems
+  A Runtime Control Architecture for AI Execution.
+
+Execution-Time Governance for Agentic Systems
+
 ---
 
 
