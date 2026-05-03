@@ -16,7 +16,7 @@ These materials serve as:
 
 ### AI Architecture & System Design
 
-- **Title:** The Illusion of “Agentic AI Control”
+- **Title:** The Illusion of Agentic AI Control
   **Link:** https://medium.com/p/44fa00b697cc
 
 - **Title:** Understanding Debt and Copy & Paste to the Rescue  
@@ -45,7 +45,7 @@ These materials serve as:
 
 ## Execution Governance (TF-RFC-0004)
 
-- **Title:** Everyone is talking about “agentic AI control.”
+- **Title:** Everyone is talking about agentic AI control.
   **Link:** https://www.linkedin.com/posts/nicolae-dumitru-caralicea-136753277_ai-aiagents-aiarchitecture-share-7456696194304606208-fcvN
 
 
