@@ -54,6 +54,26 @@ Agent → Action → Governance → Receipt → Provenance → Attribution
 
 ---
 
+# 📎 RFC Appendices & Extensions
+
+Some RFCs may include appendices and conceptual extensions that explore operational implications, illustrative execution models, or future execution participation structures.
+
+| Appendix | Related RFC | Focus |
+|----------|-------------|------|
+| [Appendix A](./TF-RFC-0007-APPENDIX-A-EXECUTION-PARTICIPATION.md) | TF-RFC-0007 | Execution Participation as an Economic Primitive |
+
+These appendices are intended to:
+
+- illustrate operational implications
+- explore execution participation models
+- formalize future architectural directions
+- support implementation-independent conceptual extensions
+- provide defensive publication continuity
+
+Appendices remain grounded in the broader execution-centric governance model defined throughout the RFC series.
+
+---
+
 # 🚀 Evolution of the Model
 
 ```mermaid
