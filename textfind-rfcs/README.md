@@ -17,6 +17,8 @@ These RFCs collectively define a unified model for:
 * execution attribution and provenance
 * runtime governance for agentic systems
 * operational AI infrastructure
+* governable execution infrastructure
+* distributed operational accountability
 
 See [LEGAL.md](./LEGAL.md) for intellectual property, licensing, and usage terms.
 
@@ -31,6 +33,7 @@ See [LEGAL.md](./LEGAL.md) for intellectual property, licensing, and usage terms
 > * what they execute
 > * how execution is governed
 > * how execution participation is attributed
+> * how operational accountability is enforced
 
 TextFind + PER introduces an execution-centric architecture where:
 
@@ -42,15 +45,16 @@ Agent → Action → Governance → Receipt → Provenance → Attribution
 
 # 🧠 RFC Overview
 
-| RFC                                                        | Title                                     | Focus                                                                      |
-| ---------------------------------------------------------- | ----------------------------------------- | -------------------------------------------------------------------------- |
-| [TF-RFC-0001](./TF-RFC-0001-EXECUTION-RECEIPTS.md)         | Execution Receipts                        | Verifiable execution outputs                                               |
-| [TF-RFC-0002](./TF-RFC-0002-EXECUTION-PROVENANCE-GRAPH.md) | Execution Provenance Graph                | Causal tracing of actions                                                  |
-| [TF-RFC-0003](./TF-RFC-0003-XPO.md)                        | XPO (Execution Policy Orchestration)      | Cross-system execution control                                             |
-| [TF-RFC-0004](./TF-RFC-0004-EXECUTION-GOVERNANCE.md)       | Execution Governance Model                | Runtime enforcement model                                                  |
-| [TF-RFC-0005](./TF-RFC-0005-AI-ADOPTION-GUIDELINES.md)     | AI Adoption Guidelines                    | Structured AI integration                                                  |
-| [TF-RFC-0006](./TF-RFC-0006-EXECUTION-TIME-GOVERNANCE.md)  | Execution-Time Governance                 | Runtime control for agentic AI                                             |
-| [TF-RFC-0007](./TF-RFC-0007-EXECUTION-ECONOMY.md)          | Execution Economy for Governed AI Systems | Execution participation, attribution, and operational execution ecosystems |
+| RFC                                                                 | Title                                     | Focus                                                                               |
+| ------------------------------------------------------------------- | ----------------------------------------- | ----------------------------------------------------------------------------------- |
+| [TF-RFC-0001](./TF-RFC-0001-EXECUTION-RECEIPTS.md)                  | Execution Receipts                        | Verifiable execution outputs                                                        |
+| [TF-RFC-0002](./TF-RFC-0002-EXECUTION-PROVENANCE-GRAPH.md)          | Execution Provenance Graph                | Causal tracing of actions                                                           |
+| [TF-RFC-0003](./TF-RFC-0003-XPO.md)                                 | XPO (Execution Policy Orchestration)      | Cross-system execution control                                                      |
+| [TF-RFC-0004](./TF-RFC-0004-EXECUTION-GOVERNANCE.md)                | Execution Governance Model                | Runtime enforcement model                                                           |
+| [TF-RFC-0005](./TF-RFC-0005-AI-ADOPTION-GUIDELINES.md)              | AI Adoption Guidelines                    | Structured AI integration                                                           |
+| [TF-RFC-0006](./TF-RFC-0006-EXECUTION-TIME-GOVERNANCE.md)           | Execution-Time Governance                 | Runtime control for agentic AI                                                      |
+| [TF-RFC-0007](./TF-RFC-0007-EXECUTION-ECONOMY.md)                   | Execution Economy for Governed AI Systems | Execution participation, attribution, and operational execution ecosystems          |
+| [TF-RFC-0008](./TF-RFC-0008-GOVERNABLE-EXECUTION-INFRASTRUCTURE.md) | Governable Execution Infrastructure       | Operational AI governance, runtime accountability, and governable execution systems |
 
 ---
 
@@ -58,17 +62,17 @@ Agent → Action → Governance → Receipt → Provenance → Attribution
 
 Some RFCs may include appendices and conceptual extensions that explore operational implications, illustrative execution models, or future execution participation structures.
 
-| Appendix | Related RFC | Focus |
-|----------|-------------|------|
+| Appendix                                                          | Related RFC | Focus                                            |
+| ----------------------------------------------------------------- | ----------- | ------------------------------------------------ |
 | [Appendix A](./TF-RFC-0007-APPENDIX-A-EXECUTION-PARTICIPATION.md) | TF-RFC-0007 | Execution Participation as an Economic Primitive |
 
 These appendices are intended to:
 
-- illustrate operational implications
-- explore execution participation models
-- formalize future architectural directions
-- support implementation-independent conceptual extensions
-- provide defensive publication continuity
+* illustrate operational implications
+* explore execution participation models
+* formalize future architectural directions
+* support implementation-independent conceptual extensions
+* provide defensive publication continuity
 
 Appendices remain grounded in the broader execution-centric governance model defined throughout the RFC series.
 
@@ -84,6 +88,7 @@ flowchart LR
     D --> E[AI Adoption Model]
     E --> F[Execution-Time Governance]
     F --> G[Execution Economy]
+    G --> H[Governable Execution Infrastructure]
 ```
 
 ---
@@ -99,6 +104,8 @@ The RFCs collectively define a system where:
 * runtime authorization is enforced during execution
 * every execution produces verifiable operational evidence
 * execution graphs become attributable operational structures
+* operational accountability is runtime-aware
+* governance becomes execution-aware
 
 The architectural direction increasingly shifts AI systems from:
 
@@ -112,6 +119,12 @@ into:
 governed operational execution systems
 ```
 
+and ultimately toward:
+
+```text
+governable execution infrastructure
+```
+
 ---
 
 # 🔐 Why This Matters
@@ -123,6 +136,8 @@ Agentic AI systems introduce:
 * cross-system orchestration
 * runtime policy enforcement requirements
 * real-world operational consequences
+* distributed accountability challenges
+* operational governance requirements
 
 This requires a shift from:
 
@@ -131,6 +146,7 @@ flowchart LR
     A[AI Output Systems] --> B[Agentic Execution Systems]
     B --> C[Execution-Time Governance]
     C --> D[Execution Participation & Attribution]
+    D --> E[Governable Execution Infrastructure]
 ```
 
 ---
@@ -149,6 +165,14 @@ Control Plane + Governed Execution Runtime
 ```
 
 TextFind + PER represent one implementation realization of the broader execution-centric concepts described throughout these RFCs.
+
+TF-RFC-0008 expands this direction toward:
+
+* operational AI governance
+* runtime accountability
+* distributed execution governance
+* policy-aware orchestration
+* governable execution infrastructure
 
 ---
 
@@ -188,6 +212,7 @@ Instead, it is centered around:
 * composable capability execution
 * execution graphs
 * runtime governance
+* governable operational execution
 
 ---
 
@@ -212,6 +237,7 @@ These RFCs are intended for:
 * infrastructure teams
 * governance teams
 * organizations adopting operational AI systems
+* enterprise AI governance practitioners
 
 ---
 
@@ -231,6 +257,7 @@ See individual RFCs for:
 * Claims Scope (Informal)
 * Defensive Publication Intent
 * Extension Model
+* Operational Governance Positioning
 
 ---
 
@@ -244,6 +271,7 @@ See individual RFCs for:
 > * governed participation
 > * operational attribution
 > * runtime accountability
+> * governable execution
 
 ---
 
