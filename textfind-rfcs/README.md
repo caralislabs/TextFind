@@ -6,7 +6,7 @@ See [PUBLICATIONS.md](./PUBLICATIONS.md) for related posts, public disclosures, 
 
 # TextFind RFCs
 
-This repository contains a series of Request for Comments (RFCs) describing the architectural foundations, governance models, execution primitives, and operational direction of **TextFind + PER**.
+This repository contains a series of Request for Comments (RFCs) describing the architectural foundations, governance models, execution primitives, trust frameworks, runtime authority models, and operational direction of **TextFind + PER**.
 
 These RFCs collectively define a unified model for:
 
@@ -19,6 +19,8 @@ These RFCs collectively define a unified model for:
 * operational AI infrastructure
 * governable execution infrastructure
 * distributed operational accountability
+* runtime trust and authority
+* execution capability governance
 
 See [LEGAL.md](./LEGAL.md) for intellectual property, licensing, and usage terms.
 
@@ -34,47 +36,49 @@ See [LEGAL.md](./LEGAL.md) for intellectual property, licensing, and usage terms
 > * how execution is governed
 > * how execution participation is attributed
 > * how operational accountability is enforced
+> * how trust is established and maintained during execution
 
 TextFind + PER introduces an execution-centric architecture where:
 
 ```text
-Agent → Action → Governance → Receipt → Provenance → Attribution
+Agent → Action → Governance → Receipt → Provenance → Attribution → Trust
 ```
 
 ---
 
 # 🧠 RFC Overview
 
-| RFC                                                                 | Title                                     | Focus                                                                               |
-| ------------------------------------------------------------------- | ----------------------------------------- | ----------------------------------------------------------------------------------- |
-| [TF-RFC-0001](./TF-RFC-0001-EXECUTION-RECEIPTS.md)                  | Execution Receipts                        | Verifiable execution outputs                                                        |
-| [TF-RFC-0002](./TF-RFC-0002-EXECUTION-PROVENANCE-GRAPH.md)          | Execution Provenance Graph                | Causal tracing of actions                                                           |
-| [TF-RFC-0003](./TF-RFC-0003-XPO.md)                                 | XPO (Execution Policy Orchestration)      | Cross-system execution control                                                      |
-| [TF-RFC-0004](./TF-RFC-0004-EXECUTION-GOVERNANCE.md)                | Execution Governance Model                | Runtime enforcement model                                                           |
-| [TF-RFC-0005](./TF-RFC-0005-AI-ADOPTION-GUIDELINES.md)              | AI Adoption Guidelines                    | Structured AI integration                                                           |
-| [TF-RFC-0006](./TF-RFC-0006-EXECUTION-TIME-GOVERNANCE.md)           | Execution-Time Governance                 | Runtime control for agentic AI                                                      |
-| [TF-RFC-0007](./TF-RFC-0007-EXECUTION-ECONOMY.md)                   | Execution Economy for Governed AI Systems | Execution participation, attribution, and operational execution ecosystems          |
-| [TF-RFC-0008](./TF-RFC-0008-GOVERNABLE-EXECUTION-INFRASTRUCTURE.md) | Governable Execution Infrastructure       | Operational AI governance, runtime accountability, and governable execution systems |
+| RFC | Title | Focus |
+|------|---------|---------|
+| TF-RFC-0001 | Execution Receipts | Verifiable execution outputs |
+| TF-RFC-0002 | Execution Provenance Graph | Causal tracing of actions |
+| TF-RFC-0003 | XPO (Cross-Platform Execution & Outcome Protocol) | Cross-system execution control |
+| TF-RFC-0004 | Execution Governance Model | Runtime enforcement model |
+| TF-RFC-0005 | AI Adoption Guidelines | Structured AI integration |
+| TF-RFC-0006 | Execution-Time Governance | Runtime control for agentic AI |
+| TF-RFC-0007 | Execution Economy for Governed AI Systems | Execution participation, attribution, and operational ecosystems |
+| TF-RFC-0008 | Governable Execution Infrastructure | Operational AI governance and governable execution systems |
+| TF-RFC-0009 | Trusted Processing Elements, Attestation, and Delegated Dispatch Governance | Trust evaluation, participant identity, delegated dispatch governance, supply-chain trust |
+| TF-RFC-0010 | Execution Artifact Authority and Context-Bound Access | Governed execution artifacts, capability-based access, artifact authority |
 
 ---
 
-# 📎 RFC Appendices & Extensions
+# 🛡️ Runtime Trust & Authority
 
-Some RFCs may include appendices and conceptual extensions that explore operational implications, illustrative execution models, or future execution participation structures.
+Recent RFCs extend the execution-time governance model into runtime trust and execution authority.
 
-| Appendix                                                          | Related RFC | Focus                                            |
-| ----------------------------------------------------------------- | ----------- | ------------------------------------------------ |
-| [Appendix A](./TF-RFC-0007-APPENDIX-A-EXECUTION-PARTICIPATION.md) | TF-RFC-0007 | Execution Participation as an Economic Primitive |
+Key principles include:
 
-These appendices are intended to:
+* Execution-time governance requires trust in execution participants.
+* Runtime services enforce authority; PER issues authority.
+* Execution artifacts are governed execution resources.
+* Delegated dispatch extends the execution trust boundary.
+* Trust evaluation becomes a first-class execution concern.
 
-* illustrate operational implications
-* explore execution participation models
-* formalize future architectural directions
-* support implementation-independent conceptual extensions
-* provide defensive publication continuity
+These concepts are introduced in:
 
-Appendices remain grounded in the broader execution-centric governance model defined throughout the RFC series.
+* TF-RFC-0009 Trusted Processing Elements, Attestation, and Delegated Dispatch Governance
+* TF-RFC-0010 Execution Artifact Authority and Context-Bound Access
 
 ---
 
@@ -82,13 +86,16 @@ Appendices remain grounded in the broader execution-centric governance model def
 
 ```mermaid
 flowchart LR
-    A[Execution Receipts] --> B[Provenance Graph]
-    B --> C[XPO]
-    C --> D[Execution Governance]
-    D --> E[AI Adoption Model]
-    E --> F[Execution-Time Governance]
-    F --> G[Execution Economy]
-    G --> H[Governable Execution Infrastructure]
+    A[Execution Receipts]
+        --> B[Execution Provenance Graph]
+        --> C[XPO]
+        --> D[Execution Governance]
+        --> E[AI Adoption Guidelines]
+        --> F[Execution-Time Governance]
+        --> G[Execution Economy]
+        --> H[Governable Execution Infrastructure]
+        --> I[Trusted Processing Elements]
+        --> J[Execution Artifact Authority]
 ```
 
 ---
@@ -102,28 +109,27 @@ The RFCs collectively define a system where:
 * operational capabilities are composable
 * execution participation is observable
 * runtime authorization is enforced during execution
+* trust in execution participants is evaluated
+* delegated execution is governed
+* execution artifacts become governed resources
 * every execution produces verifiable operational evidence
 * execution graphs become attributable operational structures
-* operational accountability is runtime-aware
+* runtime accountability is enforced
 * governance becomes execution-aware
 
-The architectural direction increasingly shifts AI systems from:
+The architectural direction increasingly evolves toward a:
 
 ```text
-generation-centric systems
+Governed Execution Runtime (GER)
 ```
 
-into:
+where:
 
-```text
-governed operational execution systems
-```
-
-and ultimately toward:
-
-```text
-governable execution infrastructure
-```
+* execution authority is explicit
+* trust is evaluated continuously
+* capabilities become runtime primitives
+* runtime services enforce PER-issued authority
+* execution remains observable and auditable
 
 ---
 
@@ -138,15 +144,21 @@ Agentic AI systems introduce:
 * real-world operational consequences
 * distributed accountability challenges
 * operational governance requirements
+* trust propagation challenges
+* delegated execution concerns
 
 This requires a shift from:
 
-```mermaid
-flowchart LR
-    A[AI Output Systems] --> B[Agentic Execution Systems]
-    B --> C[Execution-Time Governance]
-    C --> D[Execution Participation & Attribution]
-    D --> E[Governable Execution Infrastructure]
+```text
+AI Output Systems
+    ↓
+Agentic Execution Systems
+    ↓
+Execution-Time Governance
+    ↓
+Runtime Trust & Authority
+    ↓
+Governed Execution Runtime
 ```
 
 ---
@@ -155,8 +167,8 @@ flowchart LR
 
 These RFCs describe the architectural foundations of:
 
-* **TextFind Platform** → Operational Control Plane
-* **PER (Pipeline Execution Runtime)** → Governed Execution Runtime
+* TextFind Platform → Operational Control Plane
+* PER (Pipeline Execution Runtime) → Governed Execution Runtime
 
 Together:
 
@@ -164,15 +176,18 @@ Together:
 Control Plane + Governed Execution Runtime
 ```
 
-TextFind + PER represent one implementation realization of the broader execution-centric concepts described throughout these RFCs.
+PER increasingly evolves into an Execution Control Plane responsible for:
 
-TF-RFC-0008 expands this direction toward:
+* execution governance
+* execution-time authorization
+* trust evaluation
+* delegated dispatch governance
+* capability issuance
+* provenance generation
+* execution receipts
+* execution artifact governance
 
-* operational AI governance
-* runtime accountability
-* distributed execution governance
-* policy-aware orchestration
-* governable execution infrastructure
+Supporting runtime services enforce PER-issued authority through scoped, time-bound execution capabilities.
 
 ---
 
@@ -184,6 +199,7 @@ The Execution Economy emerges when execution itself becomes:
 * composable
 * governed
 * attributable
+* trusted
 * economically meaningful
 
 This shifts operational focus from:
@@ -198,22 +214,6 @@ into:
 governed operational execution participation
 ```
 
-The Execution Economy is not centered around:
-
-* prompt marketplaces
-* isolated AI agents
-* speculative token systems
-
-Instead, it is centered around:
-
-* governed execution participation
-* execution receipts
-* operational attribution
-* composable capability execution
-* execution graphs
-* runtime governance
-* governable operational execution
-
 ---
 
 # 📖 Usage
@@ -223,21 +223,12 @@ These RFCs are intended to function as:
 * architectural specifications
 * conceptual foundations
 * execution governance models
+* runtime trust models
 * operational AI infrastructure references
 * design references
 * prior art documentation
 * system design guidelines
 * implementation-independent architectural disclosures
-
-These RFCs are intended for:
-
-* system architects
-* AI engineers
-* platform designers
-* infrastructure teams
-* governance teams
-* organizations adopting operational AI systems
-* enterprise AI governance practitioners
 
 ---
 
@@ -249,15 +240,7 @@ All RFCs in this repository:
 * establish prior art for described operational models
 * define implementation-independent conceptual structures
 * may support future RFC extensions and implementation realizations
-* are released under **CC BY 4.0**
-
-See individual RFCs for:
-
-* IP & Licensing Considerations
-* Claims Scope (Informal)
-* Defensive Publication Intent
-* Extension Model
-* Operational Governance Positioning
+* are released under CC BY 4.0
 
 ---
 
@@ -269,7 +252,9 @@ See individual RFCs for:
 >
 > * controlled execution
 > * governed participation
-> * operational attribution
+> * trusted execution participants
+> * execution authority
+> * governed execution artifacts
 > * runtime accountability
 > * governable execution
 
