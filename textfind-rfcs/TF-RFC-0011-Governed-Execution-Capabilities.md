@@ -95,20 +95,6 @@ Capability composition enables governed execution ecosystems.
 > In this sense, Governed Execution Capabilities may become to the Execution Economy what web pages became to the Information Economy.
 
 
-## Relationship to the Execution Economy
-
-The Information Economy enabled discovery of information.
-
-The Execution Economy enables discovery of executable capabilities.
-
-Capability publication enables capability discovery.
-
-Capability discovery enables capability composition.
-
-Capability composition enables governed execution ecosystems.
-
-This RFC proposes Governed Execution Capabilities as a candidate foundational primitive of such ecosystems.
-
 ---
 
 
@@ -520,7 +506,25 @@ Future implementations may be:
 
 Nothing in this RFC grants rights to future implementations derived from these concepts.
 
-# 23. Future Work
+---
+
+# 23. Relationship to the Execution Economy
+
+The Information Economy enabled discovery of information.
+
+The Execution Economy enables discovery of executable capabilities.
+
+Capability publication enables capability discovery.
+
+Capability discovery enables capability composition.
+
+Capability composition enables governed execution ecosystems.
+
+This RFC proposes Governed Execution Capabilities as a candidate foundational primitive of such ecosystems.
+
+---
+
+# 24. Future Work
 
 Future areas include:
 
