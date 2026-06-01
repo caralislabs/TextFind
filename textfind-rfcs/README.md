@@ -60,6 +60,7 @@ Agent → Action → Governance → Receipt → Provenance → Attribution → T
 | TF-RFC-0008 | Governable Execution Infrastructure | Operational AI governance and governable execution systems |
 | TF-RFC-0009 | Trusted Processing Elements, Attestation, and Delegated Dispatch Governance | Trust evaluation, participant identity, delegated dispatch governance, supply-chain trust |
 | TF-RFC-0010 | Execution Artifact Authority and Context-Bound Access | Governed execution artifacts, capability-based access, artifact authority |
+| TF-RFC-0011 | Governed Execution Capability Publication, Discovery, and Composition | The Publication Model of the Execution Economy |
 
 ---
 
