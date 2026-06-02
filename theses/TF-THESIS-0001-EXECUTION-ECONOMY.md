@@ -42,6 +42,55 @@ The purpose of this thesis is not to present utopian certainty, but to identify 
 
 ---
 
+
+--
+
+# Trademark Reservation
+Trademark Reservation
+
+TextFind®, PER™, CaralisLabs™, Execution Economy™, Execution-Time
+Governance™, and other associated product, framework, and architecture names
+referenced in this publication may be trademarks, service marks, or future
+trademark candidates of CaralisLabs.
+
+Nothing in this publication shall be interpreted as granting rights to use
+these marks in commerce without authorization.
+
+# Prior Art Statement
+
+Prior Art and Public Disclosure
+
+This publication constitutes a public disclosure of the concepts,
+architectures, governance models, and execution frameworks described herein.
+
+The publication date of this document and associated RFCs establishes public
+evidence of authorship and prior art regarding the disclosed concepts.
+
+CaralisLabs reserves all rights regarding future implementations,
+commercializations, patent filings, trademarks, and derivative works.
+
+# RFC Portfolio Protection
+The RFC portfolio described in this publication represents original work
+developed by CaralisLabs as part of ongoing research into governed execution,
+runtime governance, and execution infrastructure.
+
+Publication of RFCs is intended to facilitate discussion and research while
+preserving authorship and establishing public prior art.
+
+# Repository License Clarification
+Unless explicitly stated otherwise, publication of this thesis through GitHub
+does not imply that the concepts, frameworks, business models, or associated
+intellectual property are released under an open-source license.
+
+Source code, RFCs, documentation, and thesis publications may be governed by
+separate licenses.
+
+The Execution Economy, its associated governance models, and the supporting
+architectural frameworks described in this publication are active areas of
+research and commercial development by CaralisLabs.
+
+--
+
 # 1. The Stable Feedback Loop of the Pre-AI Era
 
 Modern industrial and knowledge economies depended on a largely invisible societal mechanism:

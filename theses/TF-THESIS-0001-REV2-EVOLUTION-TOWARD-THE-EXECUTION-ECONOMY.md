@@ -98,6 +98,95 @@ Appendix C — Historical Timeline
 
 ---
 
+# Copyright Notice
+Copyright © 2026 Nicolae Dumitru Caralicea / CaralisLabs.
+
+All rights reserved.
+
+This publication may be shared, referenced, and cited for educational,
+research, and non-commercial purposes provided proper attribution is given.
+
+No part of this publication may be reproduced, modified, republished,
+commercialized, incorporated into commercial products, or distributed for
+commercial purposes without prior written permission from the author.
+
+For licensing inquiries, contact CaralisLabs.
+
+--
+
+# Intellectual Property Notice
+
+The concepts, frameworks, terminology, architectural models, governance
+models, execution models, diagrams, and original theories presented in this
+publication constitute intellectual property of Nicolae Dumitru Caralicea
+and/or CaralisLabs unless otherwise noted.
+
+This includes, but is not limited to:
+
+- The Execution Economy
+- Governed Execution
+- Execution-Time Governance
+- Execution Receipts
+- Execution Provenance Graph (EPG)
+- Trusted Processing Elements
+- Delegated Dispatch Governance
+- Execution Artifact Authority
+- Context-Bound Access
+- Governed Participants
+- Sovereign Execution Infrastructure
+
+Publication of these concepts does not grant any license to implement,
+commercialize, trademark, sublicense, or create derivative commercial
+products based upon these concepts without explicit authorization.
+
+--
+
+# Trademark Reservation
+Trademark Reservation
+
+TextFind®, PER™, CaralisLabs™, Execution Economy™, Execution-Time
+Governance™, and other associated product, framework, and architecture names
+referenced in this publication may be trademarks, service marks, or future
+trademark candidates of CaralisLabs.
+
+Nothing in this publication shall be interpreted as granting rights to use
+these marks in commerce without authorization.
+
+# Prior Art Statement
+
+Prior Art and Public Disclosure
+
+This publication constitutes a public disclosure of the concepts,
+architectures, governance models, and execution frameworks described herein.
+
+The publication date of this document and associated RFCs establishes public
+evidence of authorship and prior art regarding the disclosed concepts.
+
+CaralisLabs reserves all rights regarding future implementations,
+commercializations, patent filings, trademarks, and derivative works.
+
+# RFC Portfolio Protection
+The RFC portfolio described in this publication represents original work
+developed by CaralisLabs as part of ongoing research into governed execution,
+runtime governance, and execution infrastructure.
+
+Publication of RFCs is intended to facilitate discussion and research while
+preserving authorship and establishing public prior art.
+
+# Repository License Clarification
+Unless explicitly stated otherwise, publication of this thesis through GitHub
+does not imply that the concepts, frameworks, business models, or associated
+intellectual property are released under an open-source license.
+
+Source code, RFCs, documentation, and thesis publications may be governed by
+separate licenses.
+
+The Execution Economy, its associated governance models, and the supporting
+architectural frameworks described in this publication are active areas of
+research and commercial development by CaralisLabs.
+
+--
+
 # Part I — Foundations
 
 # Chapter 1 — Introduction
