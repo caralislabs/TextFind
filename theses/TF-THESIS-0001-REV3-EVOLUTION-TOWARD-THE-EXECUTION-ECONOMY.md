@@ -1,4 +1,4 @@
-# TF-THESIS-0001 REVISION 2
+# TF-THESIS-0001 REVISION 3
 
 # The Evolution Toward the Execution Economy
 
@@ -113,7 +113,7 @@ commercial purposes without prior written permission from the author.
 
 For licensing inquiries, contact CaralisLabs.
 
---
+---
 
 # Intellectual Property Notice
 
@@ -140,7 +140,7 @@ Publication of these concepts does not grant any license to implement,
 commercialize, trademark, sublicense, or create derivative commercial
 products based upon these concepts without explicit authorization.
 
---
+---
 
 # Trademark Reservation
 Trademark Reservation
@@ -186,7 +186,7 @@ The Execution Economy, its associated governance models, and the supporting
 architectural frameworks described in this publication are active areas of
 research and commercial development by CaralisLabs.
 
---
+---
 
 # Part I — Foundations
 
