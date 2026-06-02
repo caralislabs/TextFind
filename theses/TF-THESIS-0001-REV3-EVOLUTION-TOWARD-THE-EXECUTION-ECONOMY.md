@@ -1969,6 +1969,29 @@ These include:
 
 As autonomy increases, AI participants increasingly move from advisory roles toward execution roles.
 
+## The Beneficiary
+
+Traditional systems often focus on creators, owners, and executors.
+
+However, execution exists to produce outcomes, and outcomes ultimately
+create value for one or more participants.
+
+A beneficiary is a participant that receives value from the outcome of
+an execution.
+
+Examples:
+
+- A patient receiving medical treatment
+- A citizen benefiting from a public service
+- A customer using a software product
+- An organization receiving insights from an AI-generated report
+
+The beneficiary may differ from the executor, owner, or authority that
+authorized the work.
+
+As execution ecosystems mature, beneficiaries may become first-class
+participants within execution governance models.
+
 ---
 
 ### Organizational Participants
