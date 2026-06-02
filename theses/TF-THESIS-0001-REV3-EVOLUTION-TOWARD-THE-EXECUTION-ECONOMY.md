@@ -5712,6 +5712,16 @@ Execution creates outcomes.
 
 Accountability assigns ownership of consequences.
 
+
+> Who benefited?
+
+Future accountability models may require explicit identification of
+beneficiaries in addition to executors and approvers.
+
+Understanding who received value from an execution may be essential for
+economic attribution, regulatory analysis, taxation, compensation, and
+liability determination.
+
 ---
 
 ## Accountability Throughout History
@@ -6646,6 +6656,10 @@ Software Participant
 
 Outcome
 
+↓
+
+Beneficiary
+
 Execution increasingly emerges from coordinated participant compositions.
 
 Organizations focus less on individual participants and more on execution assemblies.
@@ -6795,6 +6809,13 @@ Compensation may include:
 * contractual consideration
 
 Compensation transforms execution from activity into economic exchange.
+
+
+Execution outcomes create value that ultimately flows to beneficiaries.
+
+Future execution ecosystems may require mechanisms for identifying,
+tracking, and governing beneficiaries alongside executors, owners, and
+authorities.
 
 This characteristic represents one of the strongest indicators of an emerging Execution Economy.
 
