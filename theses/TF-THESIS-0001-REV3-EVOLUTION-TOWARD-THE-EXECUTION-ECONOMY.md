@@ -1994,6 +1994,57 @@ participants within execution governance models.
 
 ---
 
+## Value Attribution and Contributor Compensation
+
+Execution ecosystems create value through the coordinated efforts of
+multiple participants.
+
+An execution outcome may depend upon:
+
+- Pipeline authors
+- Processing Element authors
+- Knowledge contributors
+- Data providers
+- Organizations
+- AI agents
+- Human operators
+
+Traditional software systems often treat execution as a binary event:
+work occurs and value is captured by the operating organization.
+
+Execution economies introduce the possibility of tracing how value was
+created and which participants contributed to that value.
+
+Execution provenance provides evidence regarding:
+
+- What executed
+- Which participants contributed
+- How artifacts were produced
+- How outcomes were achieved
+
+This visibility enables value attribution.
+
+Value attribution does not imply compensation.
+
+However, it creates the foundation for compensation models that may
+reward contributors based on their participation in successful
+execution outcomes.
+
+Future execution ecosystems may support:
+
+- Revenue sharing
+- Royalties
+- Contributor rewards
+- Reputation systems
+- Incentive mechanisms
+- Usage-based compensation
+
+As execution becomes increasingly composable, value attribution may
+become a foundational capability of the Execution Economy.
+
+---
+
+
 ### Organizational Participants
 
 Organizations themselves may act as participants.
@@ -7536,6 +7587,15 @@ Can AI participants participate economically?
 The answers remain uncertain.
 
 However, these questions are becoming increasingly relevant.
+
+---
+
+## Participants Compensation
+
+- Execution value attribution models
+- Contributor compensation frameworks
+- Royalties for execution participants
+- Economic incentives for execution ecosystems
 
 ---
 
