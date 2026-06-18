@@ -1,6 +1,6 @@
 # TextFind RFCs & Execution Economy Research
 
-Public architectural disclosures, RFCs, research documents, and conceptual foundations supporting TextFind, PER, and the broader Execution Economy initiative.
+Public architectural disclosures, RFCs, research documents, and conceptual foundations supporting TextFind, PER, the Execution Economy, Intelligence Economics, and Knowledge Compounding Theory.
 
 See [PUBLICATIONS.md](./PUBLICATIONS.md) for related publications, discussions, and disclosures.
 
@@ -20,13 +20,29 @@ The central premise is:
 
 This body of work explores:
 
-- Execution Governance
-- Execution-Time Enforcement
-- Runtime Trust & Authority
-- Execution Artifacts
-- Capability Publication & Composition
-- Value Attribution
-- Intelligence Economics
+* Execution Governance
+* Execution-Time Enforcement
+* Runtime Trust & Authority
+* Execution Artifacts
+* Capability Publication & Composition
+* Value Attribution
+* Intelligence Economics
+* Capability Formation
+* Knowledge Compounding
+
+Together, these works explore a broader progression:
+
+```text
+Experiences
+      ↓
+Durable Concepts
+      ↓
+Capability
+      ↓
+Execution
+      ↓
+Value
+```
 
 ---
 
@@ -38,15 +54,15 @@ The primary conceptual document for this body of work is:
 
 The thesis introduces:
 
-- Participants
-- Executions
-- Artifacts
-- Outcomes
-- Beneficiaries
-- Value Propagation
-- Governed Execution
-- Execution-Time Governance
-- Future Execution Economies
+* Participants
+* Executions
+* Artifacts
+* Outcomes
+* Beneficiaries
+* Value Propagation
+* Governed Execution
+* Execution-Time Governance
+* Future Execution Economies
 
 ---
 
@@ -72,28 +88,33 @@ For readers new to the project:
 
 6. TF-RFC-0011 – Governed Execution Capabilities
 
-### Future Research
+### Intelligence Economics
 
 7. TF-RFC-0012 – Intelligence Economics and Effective Intelligence Units
+
+### Learning & Capability Formation
+
+8. TF-RFC-0013 – Knowledge Compounding Theory (KCT)
 
 ---
 
 # 🧠 RFC Overview
 
-| RFC | Title | Focus |
-|------|---------|---------|
-| TF-RFC-0001 | Execution Receipts | Verifiable execution outputs |
-| TF-RFC-0002 | Execution Provenance Graph | Causal tracing |
-| TF-RFC-0003 | XPO | Cross-platform execution |
-| TF-RFC-0004 | Execution Governance Model | Runtime governance |
-| TF-RFC-0005 | AI Adoption Guidelines | Organizational adoption |
-| TF-RFC-0006 | Execution-Time Governance | Runtime control |
-| TF-RFC-0007 | Execution Economy | Execution participation |
-| TF-RFC-0008 | Governable Execution Infrastructure | Governable systems |
-| TF-RFC-0009 | Trusted Processing Elements | Trust and delegated execution |
-| TF-RFC-0010 | Execution Artifact Authority | Governed artifacts |
-| TF-RFC-0011 | Governed Execution Capabilities | Publication and composition |
+| RFC         | Title                                                         | Focus                                            |
+| ----------- | ------------------------------------------------------------- | ------------------------------------------------ |
+| TF-RFC-0001 | Execution Receipts                                            | Verifiable execution outputs                     |
+| TF-RFC-0002 | Execution Provenance Graph                                    | Causal tracing                                   |
+| TF-RFC-0003 | XPO                                                           | Cross-platform execution                         |
+| TF-RFC-0004 | Execution Governance Model                                    | Runtime governance                               |
+| TF-RFC-0005 | AI Adoption Guidelines                                        | Organizational adoption                          |
+| TF-RFC-0006 | Execution-Time Governance                                     | Runtime control                                  |
+| TF-RFC-0007 | Execution Economy                                             | Execution participation                          |
+| TF-RFC-0008 | Governable Execution Infrastructure                           | Governable systems                               |
+| TF-RFC-0009 | Trusted Processing Elements                                   | Trust and delegated execution                    |
+| TF-RFC-0010 | Execution Artifact Authority                                  | Governed artifacts                               |
+| TF-RFC-0011 | Governed Execution Capabilities                               | Publication and composition                      |
 | TF-RFC-0012 | Intelligence Economics and Effective Intelligence Units (EIU) | Intelligence measurement and execution economics |
+| TF-RFC-0013 | Knowledge Compounding Theory (KCT)                            | Capability formation and learning investments    |
 
 ---
 
@@ -106,7 +127,7 @@ TextFind
 │   └── TODO/
 │
 ├── textfind-rfcs/
-│   ├── TF-RFC-0001 ... TF-RFC-0012
+│   ├── TF-RFC-0001 ... TF-RFC-0013
 │   ├── diagrams/
 │   └── screenshots/
 │
@@ -131,6 +152,7 @@ flowchart LR
         --> J[Execution Artifact Authority]
         --> K[Governed Execution Capabilities]
         --> L[Intelligence Economics]
+        --> M[Knowledge Compounding Theory]
 ```
 
 ---
@@ -139,12 +161,12 @@ flowchart LR
 
 The Execution Economy emerges when execution itself becomes:
 
-- measurable
-- governed
-- attributable
-- composable
-- trusted
-- economically meaningful
+* measurable
+* governed
+* attributable
+* composable
+* trusted
+* economically meaningful
 
 The focus shifts from:
 
@@ -166,12 +188,12 @@ TF-RFC-0012 extends the Execution Economy toward the measurement of intelligence
 
 Research areas include:
 
-- Intelligence Units (IU)
-- Effective Intelligence Units (EIU)
-- Intelligence Efficiency
-- Cost per Intelligence Unit (CIU)
-- Intelligence as a latent variable
-- Intelligence contribution estimation
+* Intelligence Units (IU)
+* Effective Intelligence Units (EIU)
+* Intelligence Efficiency
+* Cost per Intelligence Unit (CIU)
+* Intelligence as a latent variable
+* Intelligence contribution estimation
 
 Current status:
 
@@ -180,6 +202,37 @@ Research / Exploratory
 ```
 
 No implementation is currently planned.
+
+---
+
+# 🧠 Knowledge Compounding Theory (KCT)
+
+TF-RFC-0013 extends the research into capability formation and learning investments.
+
+The RFC explores:
+
+* Experience Extraction
+* Durable Concepts
+* Knowledge Lifecycle Models
+* Knowledge Portfolio Models
+* Knowledge Network Effects
+* Domain Transferability
+* AI Amplification Hypothesis
+* The Forty-Year Test
+
+Central premise:
+
+> Learning is not merely the accumulation of knowledge.
+>
+> It is the extraction of durable concepts from experiences.
+
+KCT examines why some learning investments continue generating value across decades while others rapidly depreciate, and explores how Artificial Intelligence may increase the returns of highly connected, transferable, and compounding knowledge assets.
+
+Current status:
+
+```text
+Research / Exploratory
+```
 
 ---
 
@@ -203,16 +256,24 @@ Control Plane
 Governed Execution Runtime
 ```
 
+Supported by:
+
+```text
+Capability Formation Research
+      +
+Execution Economics Research
+```
+
 ---
 
 # 📜 Licensing & IP
 
 All RFCs and theses:
 
-- establish prior art
-- document conceptual frameworks
-- describe implementation-independent models
-- support future research and implementation
+* establish prior art
+* document conceptual frameworks
+* describe implementation-independent models
+* support future research and implementation
 
 Released under:
 
@@ -222,19 +283,25 @@ CC BY 4.0
 
 ---
 
-# 🔥 Key Idea
+# 🔥 Key Ideas
 
 > The future of AI systems is not defined by intelligence alone.
+
+It is defined by:
+
+* governed execution
+* trusted participation
+* runtime authority
+* execution accountability
+* value attribution
+* measurable outcomes
+* intelligence efficiency
+
+And perhaps equally important:
+
+> The future of human capability is not defined by the amount of information acquired.
 >
-> It is defined by:
->
-> - governed execution
-> - trusted participation
-> - runtime authority
-> - execution accountability
-> - value attribution
-> - measurable outcomes
-> - intelligence efficiency
+> It is defined by the durable concepts extracted from experience and their ability to continue generating value across time, domains, and future learning.
 
 ---
 
