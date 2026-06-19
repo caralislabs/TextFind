@@ -1,6 +1,6 @@
 # TextFind RFCs & Execution Economy Research
 
-Public architectural disclosures, RFCs, research documents, and conceptual foundations supporting TextFind, PER, the Execution Economy, Intelligence Economics, and Knowledge Compounding Theory.
+Public architectural disclosures, RFCs, research documents, and conceptual foundations supporting TextFind, PER, the Execution Economy, Intelligence Economics, Knowledge Compounding Theory, and Execution Economics.
 
 See [PUBLICATIONS.md](./PUBLICATIONS.md) for related publications, discussions, and disclosures.
 
@@ -27,8 +27,9 @@ This body of work explores:
 * Capability Publication & Composition
 * Value Attribution
 * Intelligence Economics
-* Capability Formation
 * Knowledge Compounding
+* Execution Economics
+* Organizational Transformation
 
 Together, these works explore a broader progression:
 
@@ -37,7 +38,13 @@ Experiences
       ↓
 Durable Concepts
       ↓
+Knowledge
+      ↓
 Capability
+      ↓
+Intelligence
+      ↓
+Potential
       ↓
 Execution
       ↓
@@ -88,13 +95,14 @@ For readers new to the project:
 
 6. TF-RFC-0011 – Governed Execution Capabilities
 
-### Intelligence Economics
+### Intelligence & Capability
 
 7. TF-RFC-0012 – Intelligence Economics and Effective Intelligence Units
-
-### Learning & Capability Formation
-
 8. TF-RFC-0013 – Knowledge Compounding Theory (KCT)
+
+### Execution Economics
+
+9. TF-RFC-0014 – Execution Economics Framework (EEF)
 
 ---
 
@@ -113,8 +121,9 @@ For readers new to the project:
 | TF-RFC-0009 | Trusted Processing Elements                                   | Trust and delegated execution                    |
 | TF-RFC-0010 | Execution Artifact Authority                                  | Governed artifacts                               |
 | TF-RFC-0011 | Governed Execution Capabilities                               | Publication and composition                      |
-| TF-RFC-0012 | Intelligence Economics and Effective Intelligence Units (EIU) | Intelligence measurement and execution economics |
+| TF-RFC-0012 | Intelligence Economics and Effective Intelligence Units (EIU) | Intelligence measurement                         |
 | TF-RFC-0013 | Knowledge Compounding Theory (KCT)                            | Capability formation and learning investments    |
+| TF-RFC-0014 | Execution Economics Framework (EEF)                           | Measuring the conversion of potential into value |
 
 ---
 
@@ -127,7 +136,7 @@ TextFind
 │   └── TODO/
 │
 ├── textfind-rfcs/
-│   ├── TF-RFC-0001 ... TF-RFC-0013
+│   ├── TF-RFC-0001 ... TF-RFC-0014
 │   ├── diagrams/
 │   └── screenshots/
 │
@@ -153,6 +162,7 @@ flowchart LR
         --> K[Governed Execution Capabilities]
         --> L[Intelligence Economics]
         --> M[Knowledge Compounding Theory]
+        --> N[Execution Economics Framework]
 ```
 
 ---
@@ -195,13 +205,15 @@ Research areas include:
 * Intelligence as a latent variable
 * Intelligence contribution estimation
 
+Central premise:
+
+> Intelligence is becoming a measurable factor of production.
+
 Current status:
 
 ```text
 Research / Exploratory
 ```
-
-No implementation is currently planned.
 
 ---
 
@@ -226,7 +238,37 @@ Central premise:
 >
 > It is the extraction of durable concepts from experiences.
 
-KCT examines why some learning investments continue generating value across decades while others rapidly depreciate, and explores how Artificial Intelligence may increase the returns of highly connected, transferable, and compounding knowledge assets.
+Current status:
+
+```text
+Research / Exploratory
+```
+
+---
+
+# 📈 Execution Economics Framework (EEF)
+
+TF-RFC-0014 extends the research from intelligence and capability formation toward value realization.
+
+The RFC explores:
+
+* Potential Latent Capital (PLC)
+* Execution Capital (EC)
+* Realized Value (RV)
+* Potential Realization Gap (PRG)
+* Realization Efficiency (RE)
+* Execution Conversion Rate (ECR)
+* Execution Velocity (EV)
+* Execution Acceleration (EA)
+* Intelligence Abundance Hypothesis
+
+Central premise:
+
+> Intelligence creates potential.
+>
+> Execution realizes value.
+
+The framework proposes that as intelligence becomes increasingly abundant through AI systems, execution may become the primary scarcity of the AI era.
 
 Current status:
 
@@ -259,7 +301,9 @@ Governed Execution Runtime
 Supported by:
 
 ```text
-Capability Formation Research
+Knowledge Compounding Research
+      +
+Intelligence Economics Research
       +
 Execution Economics Research
 ```
@@ -296,12 +340,21 @@ It is defined by:
 * value attribution
 * measurable outcomes
 * intelligence efficiency
+* execution effectiveness
 
 And perhaps equally important:
 
-> The future of human capability is not defined by the amount of information acquired.
+> Learning extracts durable concepts.
+
+> Intelligence creates potential.
+
+> Execution realizes value.
+
+And ultimately:
+
+> The scarcity of the future may not be intelligence.
 >
-> It is defined by the durable concepts extracted from experience and their ability to continue generating value across time, domains, and future learning.
+> The scarcity may be execution.
 
 ---
 
