@@ -45,6 +45,19 @@ However, this repository does not grant:
 - exclusive rights to the concepts  
 - rights to proprietary implementations derived from this work  
 
+
+---
+
+## Patent Position
+
+Publication of these RFCs is intended to establish prior art, document architectural concepts, and encourage discussion and implementation.
+
+These publications do not constitute a grant of patent rights or an implied patent license.
+
+Should specific technical inventions described within or derived from this body of work become the subject of patent applications or issued patents, any associated rights remain separate from the publication of these documents unless explicitly stated otherwise.
+
+Likewise, independent implementations and novel technical improvements developed by others may themselves be eligible for intellectual property protection under applicable law.
+
 ---
 
 ## Concept vs Implementation
