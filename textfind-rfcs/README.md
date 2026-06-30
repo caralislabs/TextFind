@@ -101,15 +101,16 @@ Introduces:
 ## Trust & Assurance
 
 7.  TF-RFC-0015 -- From Authority to Operate to Authority to Execute
+8.  TF-RFC-0016 -- Execution Governance Reference Model (EGRM)
 
 ## Intelligence & Capability
 
-8.  TF-RFC-0012 -- Intelligence Economics
-9.  TF-RFC-0013 -- Knowledge Compounding Theory
+9.  TF-RFC-0012 -- Intelligence Economics
+10.  TF-RFC-0013 -- Knowledge Compounding Theory
 
 ## Execution Economics
 
-10. TF-RFC-0014 -- Execution Economics Framework
+11. TF-RFC-0014 -- Execution Economics Framework
 
 ------------------------------------------------------------------------
 
@@ -148,6 +149,8 @@ Introduces:
 
   **TF-RFC-0015**                  **Operational Assurance & Autonomous
                                    Execution Assurance**
+
+  **TF-RFC-0016**                  **Execution Governance Reference Model (EGRM)**
   -----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
@@ -158,7 +161,7 @@ Introduces:
 TextFind
 ├── theses/
 ├── textfind-rfcs/
-│   ├── TF-RFC-0001 ... TF-RFC-0015
+│   ├── TF-RFC-0001 ... TF-RFC-0016
 │   ├── diagrams/
 │   └── screenshots/
 └── implementations/
@@ -190,6 +193,8 @@ Knowledge Compounding Theory
 Execution Economics Framework
         ↓
 Operational Assurance
+        ↓
+Execution Governance Reference Model
         ↓
 Autonomous Execution Assurance
 ```
