@@ -1,8 +1,8 @@
 # Execution Economy Research
 
-Public architectural disclosures, RFCs, research documents, and conceptual foundations supporting TextFind, PER (Policy Execution Runtime), the Execution Economy, Federated Execution, Intelligence Economics, Knowledge Compounding Theory, Execution Governance, and Capability-Driven Enterprise Architecture.
+Public architectural disclosures, RFCs, research documents, and conceptual foundations supporting **TextFind**, the **Policy Execution Runtime (PER)**, the **Execution Economy**, **Governed Execution Platforms**, **Capability-Driven Enterprise Architecture**, **Execution Governance**, **Federated Execution**, **Intelligence Economics**, **Knowledge Compounding**, and related execution-centric architectural models.
 
-See **PUBLICATIONS.md** for related publications and public disclosures.
+See **PUBLICATIONS.md** for publications and public disclosures.
 
 See **LEGAL.md** for intellectual property, licensing, and usage terms.
 
@@ -10,16 +10,36 @@ See **LEGAL.md** for intellectual property, licensing, and usage terms.
 
 # 📌 Executive Summary
 
-TextFind and PER explore a shift from AI systems focused solely on generation toward systems focused on governed execution.
+Enterprise software has continuously evolved by introducing new architectural abstractions.
+
+- Data Processing Platforms organized data.
+- Workflow Engines organized work.
+- AI Agent Frameworks organized reasoning.
+
+This research explores the emergence of another architectural abstraction:
+
+> **Governed Execution**
+
+As AI systems become increasingly autonomous, organizations require execution to become policy-aware, trustworthy, accountable, and attributable.
+
+This repository explores the architectural models required to support that evolution.
 
 The central premise is:
 
-> Intelligence alone does not create value.
->
-> Value emerges when intelligence participates in governed execution that produces outcomes for beneficiaries.
+> **Intelligence creates potential.**
 
-This research program explores:
+> **Execution realizes value.**
 
+> **Governance enables trusted execution.**
+
+---
+
+# 🎯 Research Themes
+
+This research program currently explores:
+
+- Execution Economy
+- Governed Execution Platforms
 - Execution Governance
 - Execution-Time Enforcement
 - Runtime Trust & Authority
@@ -30,18 +50,19 @@ This research program explores:
 - Capability-Driven Enterprise Architecture
 - Federated Execution
 - Execution Federation Protocols
-- Value Attribution
 - Intelligence Economics
 - Knowledge Compounding
 - Execution Economics
 - Organizational Transformation
 
-Together these works explore:
+---
+
+# 🧠 Core Research Progression
+
+The work in this repository explores the following progression:
 
 ```text
-Experiences
-        ↓
-Durable Concepts
+Information
         ↓
 Knowledge
         ↓
@@ -53,7 +74,13 @@ Potential
         ↓
 Execution
         ↓
+Governance
+        ↓
 Trust
+        ↓
+Outcomes
+        ↓
+Beneficiaries
         ↓
 Value
 ```
@@ -63,6 +90,8 @@ Value
 # 📚 Thesis
 
 **TF-THESIS-0001 — Evolution Toward the Execution Economy**
+
+The thesis introduces the long-term vision that execution becomes an increasingly important economic activity as intelligence becomes increasingly abundant.
 
 ---
 
@@ -100,39 +129,85 @@ Value
 
 ---
 
+## Platform Architecture
+
+9. TF-RFC-0018 — Governed Execution Platforms
+
+---
+
 ## Enterprise Architecture
 
-9. TF-RFC-0017 — Capability-Driven Enterprise Architecture
+10. TF-RFC-0017 — Capability-Driven Enterprise Architecture
 
 ---
 
 ## Federation
 
-10. TF-RFC-XXXX — Federated Execution Protocol (FEP)
+11. TF-RFC-XXXX — Federated Execution Protocol (FEP)
 
 ---
 
-## Intelligence & Capability
+## Intelligence
 
-11. TF-RFC-0012 — Intelligence Economics
+12. TF-RFC-0012 — Intelligence Economics
 
-12. TF-RFC-0013 — Knowledge Compounding Theory
-
----
-
-## Execution Economics
-
-13. TF-RFC-0014 — Execution Economics Framework
+13. TF-RFC-0013 — Knowledge Compounding Theory
 
 ---
 
-# 🧠 RFC Overview
+## Economics
+
+14. TF-RFC-0014 — Execution Economics Framework
+
+---
+
+# 🧩 Architectural Evolution
+
+Enterprise platforms have evolved by optimizing different architectural concerns.
+
+```text
+Information Systems
+        │
+        ▼
+Data Processing Platforms
+        │
+        ▼
+Workflow Engines
+        │
+        ▼
+Cloud-native Services
+        │
+        ▼
+AI Agent Frameworks
+        │
+        ▼
+Governed Execution Platforms
+```
+
+This repository explores the architectural implications of this evolution.
+
+---
+
+# 🧠 Platform Categories
+
+| Platform Category | Primary Concern | Primary Abstraction |
+|-------------------|-----------------|---------------------|
+| Data Processing Platforms | Data transformation | Data |
+| Workflow Engines | Work coordination | Tasks |
+| AI Agent Frameworks | Autonomous reasoning | Reasoning |
+| **Governed Execution Platforms** | Trusted execution | Execution |
+
+Governed Execution Platforms complement rather than replace existing platform categories.
+
+---
+
+# 📘 RFC Overview
 
 | RFC | Focus |
 |------|-------|
 | TF-RFC-0001 | Execution Receipts |
 | TF-RFC-0002 | Execution Provenance Graph |
-| TF-RFC-0003 | Cross-Platform Execution |
+| TF-RFC-0003 | Cross-Platform Execution & Outcome Protocol |
 | TF-RFC-0004 | Execution Governance Model |
 | TF-RFC-0005 | AI Adoption Guidelines |
 | TF-RFC-0006 | Execution-Time Governance |
@@ -144,47 +219,15 @@ Value
 | TF-RFC-0012 | Intelligence Economics |
 | TF-RFC-0013 | Knowledge Compounding Theory |
 | TF-RFC-0014 | Execution Economics Framework |
-| **TF-RFC-0015** | **Operational Assurance & Autonomous Execution Assurance** |
-| **TF-RFC-0016** | **Execution Governance Reference Model (EGRM)** |
-| **TF-RFC-0017** | **Capability-Driven Enterprise Architecture** |
-| **TF-RFC-XXXX** | **Federated Execution Protocol (FEP)** |
+| TF-RFC-0015 | Operational Assurance & Autonomous Execution Assurance |
+| TF-RFC-0016 | Execution Governance Reference Model |
+| TF-RFC-0017 | Capability-Driven Enterprise Architecture |
+| **TF-RFC-0018** | **Governed Execution Platforms** |
+| TF-RFC-XXXX | Federated Execution Protocol (FEP) |
 
 ---
 
-# 🌍 Toward Federated Execution
-
-The ideas presented throughout this repository evolved from practical work on distributed search toward governed execution spanning independent execution domains.
-
-Earlier versions of TextFind introduced **federated semantic search**, where search requests were propagated across multiple TextFind platforms and the resulting search results were aggregated.
-
-Subsequent work generalized this concept into **distributed pipeline execution**, followed by execution governance through PER.
-
-The Federated Execution Protocol (FEP) represents the next step in this evolution by generalizing search propagation into governed execution propagation.
-
-Rather than federating information alone, future systems may federate governed execution while preserving organizational sovereignty, execution provenance, accountability, and policy enforcement.
-
-This represents a progression:
-
-> **From information federation toward execution federation.**
-
----
-
-# 🏗 Repository Structure
-
-```text
-TextFind
-├── theses/
-├── textfind-rfcs/
-│   ├── TF-RFC-0001 ... TF-RFC-0017
-│   ├── TF-RFC-XXXX-Federated-Execution-Protocol(FEP).md
-│   ├── diagrams/
-│   └── screenshots/
-└── implementations/
-```
-
----
-
-# 🔬 Evolution of the Research Program
+# 🔬 Research Evolution
 
 ```text
 Execution Receipts
@@ -205,40 +248,44 @@ Operational Assurance
         ↓
 Execution Governance Reference Model
         ↓
+Governed Execution Platforms
+        ↓
 Capability-Driven Enterprise Architecture
         ↓
-Federated Execution Protocol (FEP)
+Federated Execution Protocol
         ↓
 Intelligence Economics
         ↓
 Knowledge Compounding
         ↓
-Execution Economics Framework
+Execution Economics
         ↓
 Execution Economy
 ```
 
 ---
 
-# 🧩 Relationship to TextFind + PER
+# 🏗 Relationship to TextFind + PER
 
-```text
-TextFind Platform
-        +
-Policy Execution Runtime (PER)
-        +
-Federated Execution Protocol (FEP)
-        +
-Execution Governance
-        +
-Capability-Driven Enterprise Architecture
-        +
-Knowledge Compounding
-        +
-Intelligence Economics
-        +
-Execution Economy
-```
+This repository documents implementation-independent architectural models.
+
+**TextFind** and the **Policy Execution Runtime (PER)** represent one implementation of these architectural concepts.
+
+The architectural principles described throughout these RFCs are intentionally independent from any particular software implementation.
+
+---
+
+# 🌍 Looking Forward
+
+The long-term vision explored throughout this repository is a progression:
+
+> From governing systems
+
+toward
+
+> governing execution
+
+As AI systems become increasingly autonomous, execution itself becomes an architectural concern deserving dedicated models, platforms, governance mechanisms, and economic frameworks.
 
 ---
 
@@ -248,30 +295,32 @@ Execution Economy
 
 > Execution realizes value.
 
-> Governance participates in execution.
+> Governance enables trusted execution.
 
-> Enterprise software historically mirrored organizational structures.
+> Data Processing Platforms organize data.
 
-> Governed AI execution may gradually reorganize enterprises around capabilities.
+> Workflow Engines organize work.
 
-> Earlier interoperability protocols connected systems.
+> AI Agent Frameworks organize reasoning.
 
-> Future interoperability protocols may govern execution.
-
-> The scarcity of the AI era may not be intelligence.
-
-> The scarcity may be trustworthy execution.
+> Governed Execution Platforms organize trusted execution.
 
 ---
 
-# 📜 Licensing & IP
+# 📜 Licensing & Intellectual Property
 
-These publications:
+These publications are intended to:
 
 - establish prior art
 - document implementation-independent architectural models
-- support future research
-- may be implemented using proprietary or open-source software
+- enable discussion and further research
+- support future academic and industrial exploration
+
+Conceptual architectural models are publicly disclosed.
+
+Software implementations may remain proprietary.
+
+See **LEGAL.md** for additional information.
 
 Released under **CC BY 4.0**.
 
