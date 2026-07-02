@@ -1,8 +1,8 @@
-# TextFind RFCs & Execution Economy Research
+# Execution Economy Research
 
-Public architectural disclosures, RFCs, research documents, and conceptual foundations supporting TextFind, PER, the Execution Economy, Intelligence Economics, Knowledge Compounding Theory, Execution Governance, and Capability-Driven Enterprise Architecture.
+Public architectural disclosures, RFCs, research documents, and conceptual foundations supporting TextFind, PER (Policy Execution Runtime), the Execution Economy, Federated Execution, Intelligence Economics, Knowledge Compounding Theory, Execution Governance, and Capability-Driven Enterprise Architecture.
 
-See **PUBLICATIONS.md** for related publications and disclosures.
+See **PUBLICATIONS.md** for related publications and public disclosures.
 
 See **LEGAL.md** for intellectual property, licensing, and usage terms.
 
@@ -28,6 +28,8 @@ This research program explores:
 - Execution Artifacts
 - Capability Publication & Composition
 - Capability-Driven Enterprise Architecture
+- Federated Execution
+- Execution Federation Protocols
 - Value Attribution
 - Intelligence Economics
 - Knowledge Compounding
@@ -36,29 +38,31 @@ This research program explores:
 
 Together these works explore:
 
+```text
 Experiences
-↓
+        ↓
 Durable Concepts
-↓
+        ↓
 Knowledge
-↓
+        ↓
 Capabilities
-↓
+        ↓
 Intelligence
-↓
+        ↓
 Potential
-↓
+        ↓
 Execution
-↓
+        ↓
 Trust
-↓
+        ↓
 Value
+```
 
 ---
 
 # 📚 Thesis
 
-**TF-THESIS-0001 – Evolution Toward the Execution Economy**
+**TF-THESIS-0001 — Evolution Toward the Execution Economy**
 
 ---
 
@@ -66,41 +70,59 @@ Value
 
 ## Vision
 
-1. TF-THESIS-0001 – Evolution Toward the Execution Economy
+1. TF-THESIS-0001 — Evolution Toward the Execution Economy
+
+---
 
 ## Foundations
 
-2. TF-RFC-0007 – Execution Economy
+2. TF-RFC-0007 — Execution Economy
 
-3. TF-RFC-0008 – Governable Execution Infrastructure
+3. TF-RFC-0008 — Governable Execution Infrastructure
+
+---
 
 ## Runtime Governance
 
-4. TF-RFC-0009 – Trusted Processing Elements
+4. TF-RFC-0009 — Trusted Processing Elements
 
-5. TF-RFC-0010 – Execution Artifact Authority
+5. TF-RFC-0010 — Execution Artifact Authority
 
-6. TF-RFC-0011 – Governed Execution Capabilities
+6. TF-RFC-0011 — Governed Execution Capabilities
+
+---
 
 ## Trust & Assurance
 
-7. TF-RFC-0015 – From Authority to Operate to Authority to Execute
+7. TF-RFC-0015 — From Authority to Operate to Authority to Execute
 
-8. TF-RFC-0016 – Execution Governance Reference Model (EGRM)
+8. TF-RFC-0016 — Execution Governance Reference Model (EGRM)
+
+---
 
 ## Enterprise Architecture
 
-9. TF-RFC-0017 – Capability-Driven Enterprise Architecture
+9. TF-RFC-0017 — Capability-Driven Enterprise Architecture
+
+---
+
+## Federation
+
+10. TF-RFC-XXXX — Federated Execution Protocol (FEP)
+
+---
 
 ## Intelligence & Capability
 
-10. TF-RFC-0012 – Intelligence Economics
+11. TF-RFC-0012 — Intelligence Economics
 
-11. TF-RFC-0013 – Knowledge Compounding Theory
+12. TF-RFC-0013 — Knowledge Compounding Theory
+
+---
 
 ## Execution Economics
 
-12. TF-RFC-0014 – Execution Economics Framework
+13. TF-RFC-0014 — Execution Economics Framework
 
 ---
 
@@ -125,6 +147,25 @@ Value
 | **TF-RFC-0015** | **Operational Assurance & Autonomous Execution Assurance** |
 | **TF-RFC-0016** | **Execution Governance Reference Model (EGRM)** |
 | **TF-RFC-0017** | **Capability-Driven Enterprise Architecture** |
+| **TF-RFC-XXXX** | **Federated Execution Protocol (FEP)** |
+
+---
+
+# 🌍 Toward Federated Execution
+
+The ideas presented throughout this repository evolved from practical work on distributed search toward governed execution spanning independent execution domains.
+
+Earlier versions of TextFind introduced **federated semantic search**, where search requests were propagated across multiple TextFind platforms and the resulting search results were aggregated.
+
+Subsequent work generalized this concept into **distributed pipeline execution**, followed by execution governance through PER.
+
+The Federated Execution Protocol (FEP) represents the next step in this evolution by generalizing search propagation into governed execution propagation.
+
+Rather than federating information alone, future systems may federate governed execution while preserving organizational sovereignty, execution provenance, accountability, and policy enforcement.
+
+This represents a progression:
+
+> **From information federation toward execution federation.**
 
 ---
 
@@ -135,6 +176,7 @@ TextFind
 ├── theses/
 ├── textfind-rfcs/
 │   ├── TF-RFC-0001 ... TF-RFC-0017
+│   ├── TF-RFC-XXXX-Federated-Execution-Protocol(FEP).md
 │   ├── diagrams/
 │   └── screenshots/
 └── implementations/
@@ -157,13 +199,15 @@ Trusted Processing Elements
         ↓
 Execution Artifact Authority
         ↓
-Governed Capabilities
+Governed Execution Capabilities
         ↓
 Operational Assurance
         ↓
 Execution Governance Reference Model
         ↓
 Capability-Driven Enterprise Architecture
+        ↓
+Federated Execution Protocol (FEP)
         ↓
 Intelligence Economics
         ↓
@@ -182,6 +226,8 @@ Execution Economy
 TextFind Platform
         +
 Policy Execution Runtime (PER)
+        +
+Federated Execution Protocol (FEP)
         +
 Execution Governance
         +
@@ -207,6 +253,10 @@ Execution Economy
 > Enterprise software historically mirrored organizational structures.
 
 > Governed AI execution may gradually reorganize enterprises around capabilities.
+
+> Earlier interoperability protocols connected systems.
+
+> Future interoperability protocols may govern execution.
 
 > The scarcity of the AI era may not be intelligence.
 
