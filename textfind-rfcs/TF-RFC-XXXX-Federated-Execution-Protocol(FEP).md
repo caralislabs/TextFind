@@ -398,6 +398,4 @@ TF-RFC-0010 — Execution Artifact Authority
 
 TF-RFC-0017 — Capability-Driven Enterprise Architecture
 
-SDD — Federated Execution Architecture
-
 
