@@ -211,7 +211,102 @@ Future execution ecosystems may support:
 
 ---
 
-# Concept 3: Execution Value Graph (EVG)
+# Concept 3: Attributable Value
+
+## Definition
+
+A central property of the Execution Economy is not merely that execution can produce value, but that governed, observable, and evidenced execution can make value **attributable**.
+
+Attributable Value is value associated with an execution outcome for which sufficient execution evidence exists to identify:
+
+* What execution produced or contributed to the outcome
+* Who or what benefited from the outcome
+* Which participants contributed to the execution
+* What roles those participants played
+* What resources, capabilities, models, services, artifacts, and other inputs participated in producing the outcome
+
+This creates an important economic symmetry:
+
+**Attributable Cost ↔ Attributable Value**
+
+Execution cost asks:
+
+> What resources, infrastructure, capabilities, models, services, and other inputs were consumed by this execution?
+
+Attributable value asks:
+
+> What value resulted from this execution, who benefited from it, and which participants contributed to producing that outcome?
+
+Both depend on **execution evidence**.
+
+---
+
+## Execution Evidence as the Foundation
+
+A governed execution may involve many participants, including:
+
+* Infrastructure providers
+* Deployment Unit operators
+* Platform providers
+* Capability developers
+* Model providers
+* Data providers
+* Knowledge contributors
+* Organizations
+* Human operators
+* Human approvers
+* Autonomous agents
+* Other execution participants
+
+Execution evidence can establish that these participants contributed to an execution and record the roles they played.
+
+However, participation does not by itself establish causation or determine economic entitlement.
+
+PER and other execution infrastructure may provide evidence of participation, resource consumption, actions, artifacts, and outcomes. The interpretation of that evidence—how much value should be attributed to each participant and how compensation should subsequently be allocated—is an economic and policy decision.
+
+This distinction is fundamental:
+
+> **Execution evidence makes value attributable. Value attribution interprets that evidence. Compensation determines how economic value flows.**
+
+---
+
+## Economic Chain
+
+Attributable value suggests a broader economic chain:
+
+**Resources → Execution → Evidence → Outcomes → Attributable Value → Value Attribution → Compensation**
+
+Traditional computing systems can measure infrastructure consumption reasonably well. They can count servers, storage, API calls, tokens, licenses, and other measurable inputs.
+
+They are considerably less capable of connecting those costs to specific governed executions, connecting those executions to outcomes, and connecting those outcomes back to the participants that made them possible.
+
+The Execution Economy seeks to make that relationship explicit.
+
+Execution therefore becomes not only a unit of computation or governance, but potentially a **unit of economic attribution**.
+
+---
+
+## Relationship to Value Attribution
+
+Attributable Value and Value Attribution are related but distinct concepts.
+
+**Attributable Value** describes the condition in which execution evidence makes it possible to associate value with an execution, its beneficiaries, and its contributing participants.
+
+**Value Attribution** is the process or policy used to interpret that evidence and determine how contributions relate to the value created.
+
+**Compensation** is a subsequent policy decision governing whether and how economic value flows back to participants.
+
+The infrastructure should therefore preserve the distinction between:
+
+1. Evidence of execution and participation
+2. Attribution of value
+3. Allocation of compensation
+
+This separation allows different organizations, markets, contracts, and governance regimes to apply different economic models to the same underlying execution evidence.
+
+---
+
+# Concept 4: Execution Value Graph (EVG)
 
 Potential future research concept.
 
@@ -356,6 +451,16 @@ Potential future research area.
 
 ---
 
+## Attributable Value
+
+* What evidence is sufficient to associate an outcome with an execution?
+* How should generated value be represented when it is monetary, non-monetary, delayed, or uncertain?
+* Can multiple executions contribute to the same attributable value?
+* How should attributable cost and attributable value be related without assuming causation?
+* How should beneficiaries validate or dispute claimed value?
+
+---
+
 ## Compensation
 
 * Should compensation be direct?
@@ -394,6 +499,17 @@ Defines:
 
 ---
 
+## RFC-XXXX – Attributable Execution Value
+
+Defines:
+
+* Execution-to-outcome evidence
+* Beneficiary and participant relationships
+* Attributable cost and attributable value
+* Evidence requirements for economic attribution
+
+---
+
 ## RFC-XXXX – Contributor Compensation Framework
 
 Defines:
@@ -412,6 +528,12 @@ The Information Economy focused on information ownership.
 The AI Economy focuses on intelligence generation.
 
 The Execution Economy may ultimately focus on value attribution.
+
+A foundational property enabling that economy is **Attributable Value**: the ability to connect governed execution evidence to outcomes, beneficiaries, and contributing participants without assuming that participation alone establishes causation or economic entitlement.
+
+This creates an important symmetry:
+
+**Attributable Cost ↔ Attributable Value**
 
 The emergence of beneficiaries raises a new question:
 
