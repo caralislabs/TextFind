@@ -5,8 +5,8 @@
 ## Operational Assurance and Autonomous Execution Assurance in Autonomous AI Systems
 
 **Status:** Draft\
-**Author:** Nicolae Dumitru Caralicea / CaralisLabs
-**Version:** 0.1
+**Author:** Nicolae Dumitru Caralicea / CaralisLabs **Version:** 0.1\
+**Updated:** 2026-08-17
 
 ------------------------------------------------------------------------
 
@@ -37,23 +37,28 @@ emerges:
 > trusted?**
 
 This document introduces the distinction between **Operational
-Assurance** and **Autonomous Execution Assurance**, arguing that future AI systems
-will require both.
+Assurance** and **Autonomous Execution Assurance**, arguing that future
+AI systems will require both.
 
 Operational Assurance establishes trust in the environment.
 
-Autonomous Execution Assurance establishes trust in autonomous execution.
+Autonomous Execution Assurance establishes trust in autonomous
+execution.
 
-Rather than replacing existing security frameworks, Autonomous Execution Assurance
-extends them by introducing deterministic runtime mechanisms capable of
-authorizing, validating, tracing, and producing evidence for autonomous
-actions.
+Rather than replacing existing security frameworks, Autonomous Execution
+Assurance extends them by introducing deterministic runtime mechanisms
+capable of authorizing, validating, tracing, and producing evidence for
+autonomous actions.
 
 ------------------------------------------------------------------------
 
 # 1. Introduction
 
-Historically, software primarily executed explicit human instructions. Autonomous AI introduces systems capable of selecting and performing actions with increasing independence. As the locus of decision-making shifts toward the runtime, the mechanisms used to establish trust must evolve accordingly.
+Historically, software primarily executed explicit human instructions.
+Autonomous AI introduces systems capable of selecting and performing
+actions with increasing independence. As the locus of decision-making
+shifts toward the runtime, the mechanisms used to establish trust must
+evolve accordingly.
 
 ------------------------------------------------------------------------
 
@@ -120,8 +125,9 @@ These are execution-level questions.
 
 # 5. Autonomous Execution Assurance
 
-Autonomous Execution Assurance establishes confidence that autonomous actions
-satisfy organizational requirements while the system is operating.
+Autonomous Execution Assurance establishes confidence that autonomous
+actions satisfy organizational requirements while the system is
+operating.
 
 Potential runtime mechanisms include:
 
@@ -156,8 +162,8 @@ Assurance is evaluated continuously.
 
 # 7. Relationship to Existing Frameworks
 
-Autonomous Execution Assurance does not replace existing frameworks such as NIST
-RMF, FedRAMP, ISO 27001, or SOC 2.
+Autonomous Execution Assurance does not replace existing frameworks such
+as NIST RMF, FedRAMP, ISO 27001, or SOC 2.
 
 Instead, it complements them by extending trust from the operational
 environment into runtime autonomous execution.
@@ -204,164 +210,218 @@ Autonomous Execution Assurance
 Trusted Autonomous Actions
 ```
 
-
 ------------------------------------------------------------------------
 
 # Research Roadmap
 
-This document establishes the conceptual distinction between **Operational Assurance** and **Autonomous Execution Assurance**.
+This document establishes the conceptual distinction between
+**Operational Assurance** and **Autonomous Execution Assurance**.
 
-It intentionally does not prescribe a specific implementation, certification model, or runtime architecture.
+It intentionally does not prescribe a specific implementation,
+certification model, or runtime architecture.
 
-Future work will progressively explore these topics in greater detail, including but not limited to:
+Future work will progressively explore these topics in greater detail,
+including but not limited to:
 
 ## Runtime Assurance Mechanisms
 
-Possible runtime mechanisms that contribute to Autonomous Execution Assurance, including:
+Possible runtime mechanisms that contribute to Autonomous Execution
+Assurance, including:
 
-* execution authorization
-* execution policy evaluation
-* execution context propagation
-* execution provenance
-* execution receipts
-* runtime data classification
-* policy-aware routing
-* artifact governance
-* deterministic replay
-* execution audit trails
+-   execution authorization
+-   execution policy evaluation
+-   execution context propagation
+-   execution provenance
+-   execution receipts
+-   runtime data classification
+-   policy-aware routing
+-   artifact governance
+-   deterministic replay
+-   execution audit trails
 
 ## Mapping to Existing Security Frameworks
 
-Analysis of how Autonomous Execution Assurance complements existing standards and control frameworks, including:
+Analysis of how Autonomous Execution Assurance complements existing
+standards and control frameworks, including:
 
-* NIST Risk Management Framework (RMF)
-* NIST SP 800-53
-* FedRAMP
-* ISO 27001
-* SOC 2
-* EU AI Act
-* other AI governance frameworks
+-   NIST Risk Management Framework (RMF)
+-   NIST SP 800-53
+-   FedRAMP
+-   ISO 27001
+-   SOC 2
+-   EU AI Act
+-   other AI governance frameworks
 
 ## Evidence Models
 
-Investigation of the evidence required to establish confidence in autonomous execution, including:
+Investigation of the evidence required to establish confidence in
+autonomous execution, including:
 
-* execution receipts
-* provenance graphs
-* execution artifacts
-* policy evaluation records
-* validation evidence
-* runtime audit trails
+-   execution receipts
+-   provenance graphs
+-   execution artifacts
+-   policy evaluation records
+-   validation evidence
+-   runtime audit trails
 
 ## Authority to Execute
 
-Exploration of whether future autonomous systems may require a complementary concept to Authority to Operate (ATO):
+Exploration of whether future autonomous systems may require a
+complementary concept to Authority to Operate (ATO):
 
 **Authority to Execute (ATX)**
 
-including possible assessment models, certification approaches, and operational implications.
+including possible assessment models, certification approaches, and
+operational implications.
 
 ## Runtime Governance
 
-Research into deterministic runtime mechanisms capable of enforcing organizational policies before, during, and after autonomous execution.
+Research into deterministic runtime mechanisms capable of enforcing
+organizational policies before, during, and after autonomous execution.
 
 ## Architectural Patterns
 
 Comparative analysis of possible implementation approaches, including:
 
-* execution runtimes
-* policy enforcement layers
-* governance kernels
-* trusted execution components
-* distributed execution architectures
+-   execution runtimes
+-   policy enforcement layers
+-   governance kernels
+-   trusted execution components
+-   distributed execution architectures
 
 ## Data Classification
 
-Runtime handling of sensitive information through policy-aware mechanisms such as:
+Runtime handling of sensitive information through policy-aware
+mechanisms such as:
 
-* automatic redaction
-* tokenization
-* anonymization
-* selective disclosure
-* policy-driven routing
+-   automatic redaction
+-   tokenization
+-   anonymization
+-   selective disclosure
+-   policy-driven routing
 
 ## Trustworthy Autonomous Systems
 
-Investigation of architectural models capable of establishing confidence in autonomous systems operating continuously within enterprise and governmental environments.
-
----
-
-The concepts introduced in this document are intentionally technology-independent.
-
-Their purpose is to establish a conceptual foundation for future research into trustworthy autonomous execution rather than to prescribe a particular implementation or product.
-
+Investigation of architectural models capable of establishing confidence
+in autonomous systems operating continuously within enterprise and
+governmental environments.
 
 ------------------------------------------------------------------------
 
-# Intellectual Property & Public Disclosure
+The concepts introduced in this document are intentionally
+technology-independent.
 
-This document is published as a public disclosure to establish prior art for the architectural concepts described herein and to encourage open discussion regarding the future of trustworthy autonomous AI systems.
+Their purpose is to establish a conceptual foundation for future
+research into trustworthy autonomous execution rather than to prescribe
+a particular implementation or product.
 
-The concepts presented in this document are part of an ongoing body of research into:
+------------------------------------------------------------------------
 
-* execution-time governance
-* runtime assurance
-* policy-driven autonomous systems
-* execution provenance
-* execution receipts
-* distributed execution architectures
-* trustworthy AI infrastructure
+# Intellectual Property, Prior Art, and Licensing
 
-## Purpose of Publication
+## Purpose of Disclosure
 
-This publication is intended to:
+This RFC constitutes a public disclosure and forms part of the
+CaralisLabs governed-execution research and RFC portfolio.
 
-* establish authorship and publication date
-* disclose the architectural concepts publicly as prior art
-* encourage research and discussion
-* enable independent implementation and experimentation
+Publication establishes public evidence of authorship, conceptual
+development, defensive disclosure, and prior art for the concepts,
+terminology, architectural distinctions, assurance models, and
+governance approaches described herein.
+
+This publication is intended to support research, discussion, and
+examination of trustworthy autonomous execution while preserving the
+intellectual-property position defined in the RFC portfolio's
+`LEGAL.md`.
+
+------------------------------------------------------------------------
 
 ## Scope of the Contribution
 
-This document introduces the distinction between two complementary layers of trust for autonomous AI systems:
+This RFC introduces and develops the distinction between two
+complementary layers of trust for autonomous AI systems:
 
-* **Operational Assurance** — confidence that an environment satisfies the security, compliance, and operational controls required to host sensitive workloads.
-* **Autonomous Execution Assurance** — confidence that every autonomous action performed within that environment is authorized, governed, validated, traceable, and auditable at runtime.
+-   **Operational Assurance** --- confidence that an environment
+    satisfies the security, compliance, and operational controls
+    required to host sensitive workloads.
+-   **Autonomous Execution Assurance** --- confidence that autonomous
+    actions performed within that environment are authorized, governed,
+    validated, attributable, traceable, auditable, and capable of
+    producing execution evidence at runtime.
 
-This distinction is presented as a conceptual architectural framework and is independent of any particular implementation or product.
+It further introduces **Authority to Execute (ATX)** as a complementary
+concept to Authority to Operate (ATO), while intentionally leaving
+future assessment models, certification approaches, and implementation
+mechanisms open for further research.
 
-## Pre-Existing Intellectual Property
+These concepts form part of the broader CaralisLabs research into
+execution-time governance, runtime assurance, execution provenance,
+execution receipts, policy-driven autonomous systems, distributed
+execution architectures, and trustworthy AI infrastructure.
 
-The concepts, terminology, architectural models, and analytical framework described in this document constitute pre-existing work of the author.
+------------------------------------------------------------------------
 
-Any future consulting engagement, collaboration, implementation, or commercial relationship does not transfer ownership of these concepts unless explicitly agreed in writing.
+## Intellectual Property and Licensing
 
-## Conceptual Framework vs. Implementation
+The concepts, terminology, assurance models, architectural distinctions,
+Authority to Execute (ATX), Autonomous Execution Assurance, runtime
+governance models, evidence models, and related architectural approaches
+described herein are subject to the intellectual-property and licensing
+terms defined in the RFC portfolio's `LEGAL.md`.
 
-This document intentionally distinguishes between:
+These concepts constitute pre-existing intellectual work of the author
+and are published to establish authorship, public disclosure, conceptual
+lineage, defensive disclosure, and prior art.
 
-* **Conceptual Frameworks** — publicly disclosed architectural models intended to establish prior art and support open discussion.
-* **Implementations** — software platforms, products, services, source code, deployment models, runtime systems, and operational tooling that may independently implement, extend, or adapt these concepts.
+Publication of this RFC does not transfer ownership of the disclosed
+work and does not grant any additional license, assignment of
+intellectual property, patent rights, trademark rights, or commercial
+implementation rights except as expressly stated in `LEGAL.md` or in a
+separate written agreement.
 
-Independent implementations may be proprietary, open source, or commercial without altering the authorship of the conceptual framework.
+------------------------------------------------------------------------
+
+## Conceptual Framework vs. Implementation
+
+This RFC intentionally establishes a technology-independent conceptual
+foundation rather than prescribing a particular implementation,
+certification process, product, or runtime architecture.
+
+Future implementations may include execution runtimes,
+policy-enforcement layers, governance kernels, trusted execution
+components, evidence systems, certification systems, distributed
+execution architectures, or commercial products. Such implementations
+may be separately licensed, proprietary, open source, governmental,
+academic, commercial, or otherwise independently governed.
+
+Publication of the conceptual framework should not be interpreted as
+disclosure or licensing of proprietary runtime internals, operational
+methods, implementation-specific algorithms, deployment strategies, or
+other undisclosed CaralisLabs know-how.
+
+------------------------------------------------------------------------
 
 ## No Implicit Assignment
 
-Access to this document, discussion of its contents, implementation of related ideas, or participation in collaborative work does not imply any transfer or assignment of intellectual property rights.
+Access to this RFC, discussion of its contents, citation, permitted use,
+or participation in future collaborative work does not constitute
+transfer or assignment of intellectual-property rights.
 
-Any assignment of rights must be explicit, documented, and mutually agreed upon.
+Any assignment, commercial license, implementation license, or broader
+grant of rights must be explicit, documented, and authorized by the
+applicable rights holder.
 
----
+------------------------------------------------------------------------
 
-# License
+## Licensing History
 
-This document is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+Earlier revisions of this RFC may have been published under the
+**Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
-You are free to:
+This revision does not purport to revoke rights validly granted under
+earlier license terms for copies or revisions distributed under those
+terms.
 
-* Share
-* Adapt
-* Build upon
-
-provided appropriate attribution is given to the original author.
-
+For this revision and future revisions, the terms stated in the RFC
+portfolio's `LEGAL.md`, together with any explicit notice contained in
+the applicable revision, govern publication.

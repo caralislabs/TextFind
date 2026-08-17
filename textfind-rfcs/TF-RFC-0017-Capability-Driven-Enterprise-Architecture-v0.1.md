@@ -4,36 +4,40 @@
 
 ## How Governed AI Execution Reshapes Enterprise Organizations
 
-**Status:** Draft v0.1
+**Status:** Draft v0.1\
+**Updated:** 2026-08-17
 
 **Author:** Nicolae Dumitru Caralicea
 
----
+------------------------------------------------------------------------
 
-> *Enterprise software has historically mirrored organizational structures. This RFC explores the hypothesis that governed AI execution may gradually invert that relationship, allowing enterprise capabilities to become the primary unit of organization.*
+> *Enterprise software has historically mirrored organizational
+> structures. This RFC explores the hypothesis that governed AI
+> execution may gradually invert that relationship, allowing enterprise
+> capabilities to become the primary unit of organization.*
 
 ## Abstract
 
-Enterprise software has historically evolved around organizational structures. Teams, departments, reporting lines, and communication patterns naturally shaped application boundaries, APIs, and later microservices.
+Enterprise software has historically evolved around organizational
+structures. Teams, departments, reporting lines, and communication
+patterns naturally shaped application boundaries, APIs, and later
+microservices.
 
-This RFC proposes the hypothesis that, as governed AI execution optimizes enterprise workflows across organizational boundaries, enterprises may gradually reorganize around execution capabilities rather than historical departmental structures.
+This RFC proposes the hypothesis that, as governed AI execution
+optimizes enterprise workflows across organizational boundaries,
+enterprises may gradually reorganize around execution capabilities
+rather than historical departmental structures.
 
-Rather than predicting the disappearance of departments, this document explores how the primary unit of coordination may shift toward governed enterprise capabilities executed collaboratively by humans, AI systems, and autonomous services.
+Rather than predicting the disappearance of departments, this document
+explores how the primary unit of coordination may shift toward governed
+enterprise capabilities executed collaboratively by humans, AI systems,
+and autonomous services.
 
 ## 1. Motivation
 
 Enterprise architecture has evolved through several major phases:
 
-Departments
-↓
-Applications
-↓
-SOA
-↓
-Microservices
-↓
-AI Services
-↓
+Departments ↓ Applications ↓ SOA ↓ Microservices ↓ AI Services ↓
 Capability-Centric Execution ?
 
 Question:
@@ -44,35 +48,39 @@ Question:
 
 Organizations historically optimized around communication costs.
 
-Departments emerged because specialization reduced coordination complexity.
+Departments emerged because specialization reduced coordination
+complexity.
 
 Software naturally reflected those organizational boundaries.
 
-Microservices largely continued this evolution by aligning software ownership with autonomous teams.
+Microservices largely continued this evolution by aligning software
+ownership with autonomous teams.
 
 ## 3. Conway's Law
 
-Conway's Law observes that software architectures tend to mirror organizational communication structures.
+Conway's Law observes that software architectures tend to mirror
+organizational communication structures.
 
-This RFC accepts Conway's observation while proposing that AI changes the optimization objective rather than invalidating the principle.
+This RFC accepts Conway's observation while proposing that AI changes
+the optimization objective rather than invalidating the principle.
 
 ## 4. A New Optimization Function
 
 Traditional enterprise architecture optimized for:
 
-- deployment independence
-- scalability
-- team ownership
-- maintainability
-- communication efficiency
+-   deployment independence
+-   scalability
+-   team ownership
+-   maintainability
+-   communication efficiency
 
 Governed AI execution increasingly optimizes for:
 
-- execution latency
-- decision quality
-- policy compliance
-- evidence generation
-- outcome realization
+-   execution latency
+-   decision quality
+-   policy compliance
+-   evidence generation
+-   outcome realization
 
 ## 5. Capabilities Become the Stable Unit
 
@@ -88,27 +96,19 @@ Business capabilities remain comparatively stable.
 
 Examples include:
 
-- Customer Onboarding
-- Claims Processing
-- Supplier Qualification
-- Employee Hiring
-- Incident Response
+-   Customer Onboarding
+-   Claims Processing
+-   Supplier Qualification
+-   Employee Hiring
+-   Incident Response
 
-Capabilities describe business outcomes rather than organizational ownership.
+Capabilities describe business outcomes rather than organizational
+ownership.
 
 ## 6. Governed Execution
 
-Capability
-↓
-Execution Policy
-↓
-Authorization
-↓
-Execution Runtime
-↓
-Humans + AI + Enterprise Systems
-↓
-Execution Evidence
+Capability ↓ Execution Policy ↓ Authorization ↓ Execution Runtime ↓
+Humans + AI + Enterprise Systems ↓ Execution Evidence
 
 ## 7. Organizational Implications
 
@@ -126,14 +126,15 @@ Governed AI execution can observe enterprise execution at scale.
 
 Potential observations include:
 
-- duplicated approvals
-- redundant validations
-- unnecessary service transitions
-- repeated human reviews
-- fragmented ownership
-- duplicated microservice responsibilities
+-   duplicated approvals
+-   redundant validations
+-   unnecessary service transitions
+-   repeated human reviews
+-   fragmented ownership
+-   duplicated microservice responsibilities
 
-Rather than optimizing individual services, AI optimizes complete execution paths.
+Rather than optimizing individual services, AI optimizes complete
+execution paths.
 
 ## 9. Capability Graphs
 
@@ -143,72 +144,149 @@ Future organizations may increasingly resemble capability graphs.
 
 Humans remain essential.
 
-Expertise is dynamically assembled based on execution requirements rather than rigid organizational ownership.
+Expertise is dynamically assembled based on execution requirements
+rather than rigid organizational ownership.
 
 ## 11. Relationship to Execution Governance
 
 Execution Governance provides:
 
-- execution authorization
-- policy enforcement
-- provenance
-- execution evidence
-- auditability
+-   execution authorization
+-   policy enforcement
+-   provenance
+-   execution evidence
+-   auditability
 
 ## 12. Relationship to the Execution Economy
 
-Capability-driven organizations optimize the execution paths that generate value.
+Capability-driven organizations optimize the execution paths that
+generate value.
 
 ## 13. Research Hypotheses
 
-- H1. Capabilities become more stable than organizational structures.
-- H2. Governed AI execution reduces organizational friction.
-- H3. Execution graphs increasingly influence enterprise organization.
-- H4. AI reveals historical redundancies created by organizational boundaries.
-- H5. Enterprise architecture becomes increasingly capability-centric.
+-   H1. Capabilities become more stable than organizational structures.
+-   H2. Governed AI execution reduces organizational friction.
+-   H3. Execution graphs increasingly influence enterprise organization.
+-   H4. AI reveals historical redundancies created by organizational
+    boundaries.
+-   H5. Enterprise architecture becomes increasingly capability-centric.
 
 ## 14. Open Questions
 
-- How should capability ownership evolve?
-- Can capabilities span organizations?
-- Which responsibilities remain uniquely human?
-- How should accountability evolve?
+-   How should capability ownership evolve?
+-   Can capabilities span organizations?
+-   Which responsibilities remain uniquely human?
+-   How should accountability evolve?
 
 ## 15. Future Work
 
-- capability marketplaces
-- execution topology optimization
-- adaptive organizations
-- capability economics
+-   capability marketplaces
+-   execution topology optimization
+-   adaptive organizations
+-   capability economics
 
 ## Claims Scope (Informal)
 
 This document establishes prior art relating to:
 
-- capability-driven enterprise architecture
-- execution-centric organizational design
-- AI-assisted organizational optimization
-- governed capability execution
-- execution graph optimization
+-   capability-driven enterprise architecture
+-   execution-centric organizational design
+-   AI-assisted organizational optimization
+-   governed capability execution
+-   execution graph optimization
 
-## IP & Licensing Considerations
+## Intellectual Property, Prior Art, and Licensing
 
-This document is published as a public disclosure to establish prior art, document authorship, and encourage discussion.
+### Purpose of Disclosure
 
-Conceptual models remain distinct from software implementations.
+This RFC constitutes a public disclosure and forms part of the
+CaralisLabs governed-execution and Execution Economy research and RFC
+portfolio.
 
-No rights are transferred implicitly through publication.
+Publication establishes public evidence of authorship, conceptual
+development, defensive disclosure, and prior art for the concepts,
+terminology, organizational models, capability-centric architecture, and
+execution-driven enterprise design approaches described herein.
 
-## License
+### Scope of the Contribution
 
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+This RFC establishes prior art relating to:
+
+-   capability-driven enterprise architecture
+-   execution-centric organizational design
+-   AI-assisted organizational optimization
+-   governed capability execution
+-   execution graph optimization
+-   capability-centric enterprise coordination
+-   capability graphs as organizational models
+-   dynamic human participation in governed execution
+-   execution-driven organizational adaptation
+
+The central hypothesis---that governed AI execution may cause enterprise
+architecture and organizational coordination to increasingly organize
+around stable business capabilities and execution paths rather than
+historical departmental boundaries---forms part of the conceptual
+contribution of this RFC.
+
+### Intellectual Property and Licensing
+
+The concepts, terminology, organizational models, capability models,
+execution models, research hypotheses, architectural approaches, and
+related frameworks described herein are subject to the
+intellectual-property and licensing terms defined in the RFC portfolio's
+`LEGAL.md`.
+
+These concepts constitute pre-existing intellectual work of the author
+and are published to establish authorship, public disclosure, conceptual
+lineage, defensive disclosure, and prior art.
+
+Publication of this RFC does not transfer ownership of the disclosed
+work and does not grant any additional license, assignment of
+intellectual property, patent rights, trademark rights, or commercial
+implementation rights except as expressly stated in `LEGAL.md` or in a
+separate written agreement.
+
+### Conceptual Model vs. Implementation
+
+This RFC intentionally defines conceptual organizational and
+architectural models rather than a specific software implementation or
+organizational transformation methodology.
+
+Future implementations may include capability registries, capability
+graphs, execution-topology optimizers, organizational analytics,
+governed execution platforms, capability marketplaces,
+adaptive-organization systems, or commercial products. Such
+implementations may be separately licensed, proprietary, open source,
+academic, governmental, commercial, or otherwise independently governed.
+
+Publication should not be interpreted as disclosure or licensing of
+proprietary implementation details, optimization algorithms, operational
+methods, deployment strategies, or other undisclosed CaralisLabs
+know-how.
+
+### Licensing History
+
+Earlier revisions of this RFC may have been published under the
+**Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+
+This revision does not purport to revoke rights validly granted under
+earlier license terms for copies or revisions distributed under those
+terms.
+
+For this revision and future revisions, the terms stated in the RFC
+portfolio's `LEGAL.md`, together with any explicit notice contained in
+the applicable revision, govern publication.
 
 ## Final Statement
 
-Enterprise software has historically evolved around communication structures.
+Enterprise software has historically evolved around communication
+structures.
 
-This RFC proposes that governed AI execution introduces a new optimization objective:
+This RFC proposes that governed AI execution introduces a new
+optimization objective:
 
 **execution itself.**
 
-If execution becomes the primary source of enterprise value realization, enterprise architecture may gradually reorganize around governed capabilities rather than historical organizational boundaries.
+If execution becomes the primary source of enterprise value realization,
+enterprise architecture may gradually reorganize around governed
+capabilities rather than historical organizational boundaries.

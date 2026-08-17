@@ -402,79 +402,88 @@ Within the Execution Economy framework, they may represent foundational economic
 
 ---
 
-# IP & Licensing Considerations
+# Copyright Notice
 
-This document is a public disclosure intended to:
+Copyright © 2026 Nicolae Dumitru Caralicea / CaralisLabs.
 
-* establish prior art for the concepts described herein
-* document authorship and evolution of the proposed models
-* enable open discussion and architectural exploration
+All rights reserved.
 
-All concepts, models, and frameworks described in this document are:
+This publication may be shared, referenced, and cited for educational,
+research, and non-commercial purposes provided proper attribution is given.
 
-* authored and published by the author prior to any external engagement
-* part of an ongoing body of work related to execution architecture, the Execution Economy, execution economics, value attribution, and compensation models
+No part of this publication may be reproduced, modified, republished,
+commercialized, incorporated into commercial products, or distributed for
+commercial purposes without prior written permission from the author.
 
-## Pre-Existing Intellectual Property
-
-All intellectual property described in this document constitutes **pre-existing work** of the author.
-
-Any future collaboration, consulting engagement, or implementation:
-
-* does not grant ownership over the concepts described herein
-* does not transfer rights to the underlying models, frameworks, or architectural approaches
-* must be governed by explicit agreement if derivative work ownership is to be assigned
-
-## Scope of Use
-
-This document permits:
-
-* discussion and reference
-* implementation and adaptation of ideas
-* extension within other systems
-
-However, this document does not grant:
-
-* exclusive rights to the concepts
-* ownership of the original frameworks
-* rights to proprietary implementations derived from the author's work
-
-## Implementation Distinction
-
-A distinction is made between:
-
-* **Conceptual Models (this document)** → publicly disclosed and attributable
-* **Implementations (systems, platforms, code)** → may be proprietary and independently owned
-
-## No Implicit Assignment
-
-No rights, ownership, or claims are transferred implicitly through:
-
-* access to this document
-* discussion of its contents
-* application of its ideas
-
-Any assignment of rights must be:
-
-* explicit
-* documented
-* mutually agreed upon
+For licensing inquiries, contact CaralisLabs.
 
 ---
 
-# License
+# Intellectual Property Notice
 
-This document is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+The concepts, frameworks, terminology, architectural models, economic models,
+execution models, diagrams, and original theories presented in this publication
+constitute intellectual property of Nicolae Dumitru Caralicea and/or CaralisLabs
+unless otherwise noted.
 
-You are free to:
+Publication of these concepts does not grant any license to implement,
+commercialize, trademark, sublicense, or create derivative commercial products
+based upon these concepts without explicit authorization.
 
-* Share
-* Adapt
-* Build upon
+---
 
-Provided that:
+# Trademark Reservation
 
-* Proper credit is given to the author.
+TextFind®, PER™, CaralisLabs™, Execution Economy™, Execution-Time Governance™,
+and other associated product, framework, economic, and architecture names
+referenced in this publication may be trademarks, service marks, or future
+trademark candidates of CaralisLabs.
+
+Nothing in this publication shall be interpreted as granting rights to use
+these marks in commerce without authorization.
+
+---
+
+# Prior Art Statement
+
+## Prior Art and Public Disclosure
+
+This publication constitutes a public disclosure of the concepts,
+architectures, economic models, governance models, and execution frameworks
+described herein.
+
+The publication date of this document and associated RFCs establishes public
+evidence of authorship and prior art regarding the disclosed concepts.
+
+CaralisLabs reserves all rights regarding future implementations,
+commercializations, patent filings, trademarks, and derivative works.
+
+---
+
+# RFC Portfolio Protection
+
+The RFC and research portfolio referenced by this publication represents
+original work developed by CaralisLabs as part of ongoing research into
+governed execution, runtime governance, execution infrastructure, execution
+economics, value attribution, and the Execution Economy.
+
+Publication is intended to facilitate discussion and research while preserving
+authorship and establishing public prior art.
+
+---
+
+# Repository License Clarification
+
+Unless explicitly stated otherwise, publication of this document through
+GitHub does not imply that the concepts, frameworks, business models, or
+associated intellectual property are released under an open-source license.
+
+Source code, RFCs, documentation, thesis publications, and research documents
+may be governed by separate licenses.
+
+The Execution Economy, its associated governance and economic models, and the
+supporting architectural frameworks described in this publication are active
+areas of research and commercial development by CaralisLabs.
 
 ---
 
