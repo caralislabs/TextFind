@@ -1,56 +1,66 @@
 # TF-RFC-0003: Cross-Platform Execution & Outcome Protocol (XPO) (Publication-Grade)
 
-* **Status**: Draft
-* **Author**: Nicolae Dumitru Caralicea
-* **Created**: 2026-04-27
-* **Updated**: 2026-04-27
-* **Related RFCs**: TF-RFC-0001, TF-RFC-0002
+-   **Status**: Draft
+-   **Author**: Nicolae Dumitru Caralicea
+-   **Created**: 2026-04-27
+-   **Updated**: 2026-08-17
+-   **Related RFCs**: TF-RFC-0001, TF-RFC-0002
 
----
+------------------------------------------------------------------------
 
 ## Abstract
 
-This document defines the **Cross-Platform Execution & Outcome Protocol (XPO)**—a standardized model for executing **pipelines across independent platforms** with **end-to-end traceability and measurable outcomes**.
+This document defines the **Cross-Platform Execution & Outcome Protocol
+(XPO)**---a standardized model for executing **pipelines across
+independent platforms** with **end-to-end traceability and measurable
+outcomes**.
 
 XPO introduces a missing layer in modern systems:
 
-> **Execution across boundaries with deterministic traceability and outcome awareness**
+> **Execution across boundaries with deterministic traceability and
+> outcome awareness**
 
-XPO focuses on the execution layer, independent of any specific application domain.
+XPO focuses on the execution layer, independent of any specific
+application domain.
 
----
+------------------------------------------------------------------------
 
 ## Architecture Overview
-The XPO Protocol enables cross-platform execution through a shared orchestration and traceability layer:
 
-![XPO Protocol Architecture](./diagrams/TF-RFC-0003-XPO-architecture.png)
+The XPO Protocol enables cross-platform execution through a shared
+orchestration and traceability layer:
 
-> **Figure 1** — XPO Protocol Architecture: Cross-platform orchestration, execution traceability, and outcome-driven feedback loops across independent systems.
+![XPO Protocol
+Architecture](./diagrams/TF-RFC-0003-XPO-architecture.png)
 
----
+> **Figure 1** --- XPO Protocol Architecture: Cross-platform
+> orchestration, execution traceability, and outcome-driven feedback
+> loops across independent systems.
 
+------------------------------------------------------------------------
 
 ## 1. Problem Statement
 
 Modern systems are fragmented:
 
-* Platforms operate in isolation
-* Execution is not traceable across boundaries
-* Outcomes cannot be linked to actions
+-   Platforms operate in isolation
+-   Execution is not traceable across boundaries
+-   Outcomes cannot be linked to actions
 
 This leads to:
 
-* lack of accountability
-* inability to optimize systems
-* disconnected value flows
+-   lack of accountability
+-   inability to optimize systems
+-   disconnected value flows
 
----
+------------------------------------------------------------------------
 
 ## 2. Core Principle
 
-> Execution MUST be traceable across system boundaries and MUST preserve causal linkage between actions and outcomes.
+> Execution MUST be traceable across system boundaries and MUST preserve
+> causal linkage between actions and outcomes.
 
----
+------------------------------------------------------------------------
 
 ## 3. Execution Model
 
@@ -58,7 +68,7 @@ This leads to:
 
 A pipeline is a directed graph of execution steps:
 
-```json
+``` json
 {
   "steps": [
     {"id": "step_1", "platform": "A"},
@@ -70,15 +80,17 @@ A pipeline is a directed graph of execution steps:
 }
 ```
 
-This representation is illustrative and does not mandate a graph-based execution model.
+This representation is illustrative and does not mandate a graph-based
+execution model.
 
-The trace graph MAY be backed by deterministic provenance systems (e.g., execution provenance graphs).
+The trace graph MAY be backed by deterministic provenance systems (e.g.,
+execution provenance graphs).
 
----
+------------------------------------------------------------------------
 
 ### 3.2 Execution Context (CTX)
 
-```json
+``` json
 {
   "ctx": {
     "input": {},
@@ -91,51 +103,44 @@ The trace graph MAY be backed by deterministic provenance systems (e.g., executi
 }
 ```
 
----
+------------------------------------------------------------------------
 
 ### 3.3 Cross-Platform Invocation
 
 Each platform MUST expose:
 
-```
-POST /xpo/execute
-```
+    POST /xpo/execute
 
-The endpoint MUST accept a standardized execution payload including context, pipeline segment, and contract definitions.
+The endpoint MUST accept a standardized execution payload including
+context, pipeline segment, and contract definitions.
 
----
+------------------------------------------------------------------------
 
 ## 3.4 Implementation Abstraction
 
-This RFC defines a protocol-level abstraction for cross-platform execution.
+This RFC defines a protocol-level abstraction for cross-platform
+execution.
 
-It does NOT prescribe:
-- internal pipeline representations
-- execution DSLs
-- scheduling strategies
-- data mapping mechanisms
+It does NOT prescribe: - internal pipeline representations - execution
+DSLs - scheduling strategies - data mapping mechanisms
 
-Implementations MAY use:
-- graph-based models
-- contract-based mappings
-- event-driven execution
-- or other internal paradigms
+Implementations MAY use: - graph-based models - contract-based
+mappings - event-driven execution - or other internal paradigms
 
-The protocol only requires that:
-- execution can be invoked
-- context can be propagated
-- outputs can be produced
-- traces can be emitted
+The protocol only requires that: - execution can be invoked - context
+can be propagated - outputs can be produced - traces can be emitted
 
-Some implementations may use explicit contract-bound data mappings instead of structural edges.
+Some implementations may use explicit contract-bound data mappings
+instead of structural edges.
 
-This specification defines interoperability requirements only and does not constrain internal execution semantics.
+This specification defines interoperability requirements only and does
+not constrain internal execution semantics.
 
----
+------------------------------------------------------------------------
 
 ## 4. Outcome Model
 
-```json
+``` json
 {
   "success": true,
   "score": 0.91,
@@ -145,21 +150,24 @@ This specification defines interoperability requirements only and does not const
 
 Outcomes are:
 
-* first-class outputs
-* comparable across executions
-* required for optimization
+-   first-class outputs
+-   comparable across executions
+-   required for optimization
 
-Outcomes SHOULD be defined in a way that enables cross-system comparability and aggregation.
+Outcomes SHOULD be defined in a way that enables cross-system
+comparability and aggregation.
 
----
+------------------------------------------------------------------------
 
 ## 5. Traceability Model
 
-Execution MUST produce a trace graph representing the causal flow of execution.
+Execution MUST produce a trace graph representing the causal flow of
+execution.
 
-The execution trace links capability transformation to opportunity matching and final outcome evaluation.
+The execution trace links capability transformation to opportunity
+matching and final outcome evaluation.
 
-```json
+``` json
 {
   "nodes": ["step_1", "step_2"],
   "edges": [{"from": "step_1", "to": "step_2"}],
@@ -168,32 +176,33 @@ The execution trace links capability transformation to opportunity matching and 
 }
 ```
 
-Traceability MUST preserve causal relationships between execution steps and final outcomes.
+Traceability MUST preserve causal relationships between execution steps
+and final outcomes.
 
----
+------------------------------------------------------------------------
 
 ## 6. Invariants
 
 The system MUST guarantee:
 
-1. **Cross-boundary determinism**
-2. **Complete traceability**
-3. **Explicit contracts**
-4. **Outcome binding**
+1.  **Cross-boundary determinism**
+2.  **Complete traceability**
+3.  **Explicit contracts**
+4.  **Outcome binding**
 
----
+------------------------------------------------------------------------
 
 ## 7. Policy & Control Layer
 
 Execution MUST support:
 
-* admissibility checks
-* policy enforcement
-* scoped execution tokens
+-   admissibility checks
+-   policy enforcement
+-   scoped execution tokens
 
 Example:
 
-```json
+``` json
 {
   "policy": {
     "allow": true,
@@ -204,56 +213,56 @@ Example:
 }
 ```
 
----
+------------------------------------------------------------------------
 
 ## 8. Security Model
 
-* Execution integrity MUST be verifiable
-* Context MUST be authenticated
-* Outputs MUST be attributable
+-   Execution integrity MUST be verifiable
+-   Context MUST be authenticated
+-   Outputs MUST be attributable
 
----
+------------------------------------------------------------------------
 
 ## 9. Adversarial Considerations
 
 The system MUST prevent:
 
-* hidden execution steps
-* unauthorized cross-platform calls
-* data tampering
-* outcome manipulation
+-   hidden execution steps
+-   unauthorized cross-platform calls
+-   data tampering
+-   outcome manipulation
 
----
+------------------------------------------------------------------------
 
 ## 10. Comparison
 
-| Feature         | Traditional Systems | XPO            |
-| --------------- | ------------------- | -------------- |
-| Execution Scope | Single system       | Cross-platform |
-| Traceability    | Partial             | End-to-end     |
-| Outcomes        | Indirect            | Explicit       |
-| Adaptability    | Low                 | High           |
+  Feature           Traditional Systems   XPO
+  ----------------- --------------------- ----------------
+  Execution Scope   Single system         Cross-platform
+  Traceability      Partial               End-to-end
+  Outcomes          Indirect              Explicit
+  Adaptability      Low                   High
 
----
+------------------------------------------------------------------------
 
 ## 11. Example Use Case
 
 **Skill → Opportunity Pipeline**
 
-* Platform A: skill evaluation
-* Platform B: opportunity matching
-* Platform C: outcome measurement
+-   Platform A: skill evaluation
+-   Platform B: opportunity matching
+-   Platform C: outcome measurement
 
 Final result:
 
-```json
+``` json
 {
   "success": true,
   "score": 0.82
 }
 ```
 
----
+------------------------------------------------------------------------
 
 ## 12. Conclusion
 
@@ -261,112 +270,59 @@ XPO transforms execution from:
 
 > isolated actions → connected, traceable, and outcome-driven systems
 
----
+------------------------------------------------------------------------
 
 ## Key Statement
 
-> Execution is not confined — it is connected, causally traced, and outcome-driven.
+> Execution is not confined --- it is connected, causally traced, and
+> outcome-driven.
 
----
+------------------------------------------------------------------------
 
 ## 13. Claims Scope (Informal)
 
 This document establishes prior art for:
 
-* Cross-platform execution pipelines
-* Execution-bound outcome modeling
-* Context propagation across systems
-* Policy-controlled distributed execution
-* Cross-system causal traceability and outcome linkage
+-   Cross-platform execution pipelines
+-   Execution-bound outcome modeling
+-   Context propagation across systems
+-   Policy-controlled distributed execution
+-   Cross-system causal traceability and outcome linkage
 
----
+------------------------------------------------------------------------
 
 ## 14. Execution Guarantees
 
 A system implementing XPO MUST guarantee:
 
-1. **End-to-End Execution Visibility**
-2. **Deterministic Cross-System Flow**
-3. **Outcome Attribution**
-4. **Policy-Enforced Execution**
+1.  **End-to-End Execution Visibility**
+2.  **Deterministic Cross-System Flow**
+3.  **Outcome Attribution**
+4.  **Policy-Enforced Execution**
 
----
+------------------------------------------------------------------------
 
-## IP & Licensing Considerations
+## Intellectual Property and Licensing
 
-This document is a public disclosure intended to:
+This RFC constitutes a public disclosure and forms part of the
+CaralisLabs governed-execution research and RFC portfolio.
 
-- establish prior art for the concepts described herein  
-- document authorship and evolution of the proposed models  
-- enable open discussion and architectural exploration  
+The concepts, models, terminology, and architectural approaches
+described herein are subject to the intellectual-property and licensing
+terms defined in the RFC portfolio's `LEGAL.md`.
 
-All concepts, models, and frameworks described in this document are:
+Publication of this RFC establishes public evidence of authorship,
+conceptual development, and prior art. No additional license, assignment
+of intellectual property, patent rights, trademark rights, or commercial
+implementation rights is granted by this RFC except as expressly stated
+in `LEGAL.md` or in a separate written agreement.
 
-- authored and published by the author prior to any external engagement  
-- part of an ongoing body of work related to execution architecture and AI system design  
+Earlier revisions of this RFC may have been published under different
+license terms. Rights validly granted under those earlier terms are not
+purported to be revoked by this revision. See `LEGAL.md` for the
+portfolio licensing history and current policy.
 
-### Pre-Existing Intellectual Property
-
-All intellectual property described in this document constitutes **pre-existing work** of the author.
-
-Any future collaboration, consulting engagement, or implementation:
-
-- does not grant ownership over the concepts described herein  
-- does not transfer rights to the underlying models, frameworks, or architectural approaches  
-- must be governed by explicit agreement if derivative work ownership is to be assigned  
-
-### Scope of Use
-
-This document permits:
-
-- discussion and reference  
-- implementation and adaptation of ideas  
-- extension within other systems  
-
-However, this document does not grant:
-
-- exclusive rights to the concepts  
-- ownership of the original frameworks  
-- rights to proprietary implementations derived from the author's work  
-
-### Implementation Distinction
-
-A distinction is made between:
-
-- **Conceptual Models (this document)** → publicly disclosed and attributable  
-- **Implementations (systems, platforms, code)** → may be proprietary and independently owned  
-
-### No Implicit Assignment
-
-No rights, ownership, or claims are transferred implicitly through:
-
-- access to this document  
-- discussion of its contents  
-- application of its ideas  
-
-Any assignment of rights must be:
-
-- explicit  
-- documented  
-- mutually agreed upon  
-
----
-
-## License
-
-This document is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
-
-You are free to:
-
-- Share  
-- Adapt  
-- Build upon  
-
-Provided that:
-
-- Proper credit is given to the author.
-
----
+------------------------------------------------------------------------
 
 ## 17. Final Note
 

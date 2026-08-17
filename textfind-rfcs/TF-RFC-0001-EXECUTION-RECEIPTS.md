@@ -1,75 +1,76 @@
 # TF-RFC-0001: Execution Receipts (Publication-Grade)
 
-- **Status**: Draft
-- **Author**: Nicolae Dumitru Caralicea
-- **Created**: 2026-04-26
-- **Updated**: 2026-04-26
-- **Related RFCs**: TF-RFC-0002
+-   **Status**: Draft
+-   **Author**: Nicolae Dumitru Caralicea
+-   **Created**: 2026-04-26
+-   **Updated**: 2026-08-17
+-   **Related RFCs**: TF-RFC-0002
 
----
+------------------------------------------------------------------------
 
 ## Abstract
 
-This document defines **Execution Receipts**, a deterministic, cryptographically verifiable mechanism for recording, validating, and proving execution at step-level granularity within pipeline-based systems.
+This document defines **Execution Receipts**, a deterministic,
+cryptographically verifiable mechanism for recording, validating, and
+proving execution at step-level granularity within pipeline-based
+systems.
 
-Execution Receipts establish execution as a **provable system of record**, rather than a reconstructable artifact.
+Execution Receipts establish execution as a **provable system of
+record**, rather than a reconstructable artifact.
 
----
+------------------------------------------------------------------------
 
 ## 1. Problem Statement
 
-Existing systems rely on:
-- logs
-- distributed tracing
-- post-hoc analysis
+Existing systems rely on: - logs - distributed tracing - post-hoc
+analysis
 
-These approaches:
-- are mutable
-- lack deterministic guarantees
-- cannot provide strong forensic proof
+These approaches: - are mutable - lack deterministic guarantees - cannot
+provide strong forensic proof
 
----
+------------------------------------------------------------------------
 
 ## 2. Core Principle
 
-> Execution validity MUST be established at runtime and MUST be provable after execution.
+> Execution validity MUST be established at runtime and MUST be provable
+> after execution.
 
----
+------------------------------------------------------------------------
 
 ## 3. Definitions
 
-- **Execution**: A runtime instance of a pipeline
-- **Step**: Atomic execution unit
-- **Receipt**: Verifiable proof of step execution
-- **Commit Condition**: Condition required for execution completion
+-   **Execution**: A runtime instance of a pipeline
+-   **Step**: Atomic execution unit
+-   **Receipt**: Verifiable proof of step execution
+-   **Commit Condition**: Condition required for execution completion
 
----
-
+------------------------------------------------------------------------
 
 ## 3.1 System Model
 
 A compliant system consists of:
 
-- A pipeline execution engine
-- A set of deterministic execution steps
-- A state transition mechanism
-- A receipt generation mechanism
+-   A pipeline execution engine
+-   A set of deterministic execution steps
+-   A state transition mechanism
+-   A receipt generation mechanism
 
 Execution proceeds as an ordered sequence of steps, where:
 
-- each step consumes inputs and produces outputs
-- each step results in a state transition
-- each state transition is conditioned on receipt generation
+-   each step consumes inputs and produces outputs
+-   each step results in a state transition
+-   each state transition is conditioned on receipt generation
 
-Receipts are part of the execution model itself, not an external observation layer.
+Receipts are part of the execution model itself, not an external
+observation layer.
 
----
+------------------------------------------------------------------------
 
 ## 4. Execution Receipt Model
 
 ### 4.1 Schema
 
-```json
+``` json
 {
   "execution_id": "uuid",
   "step_id": "string",
@@ -84,78 +85,75 @@ Receipts are part of the execution model itself, not an external observation lay
 }
 ```
 
----
+------------------------------------------------------------------------
 
 ### 4.2 Invariants
 
 The system MUST guarantee:
 
-1. **Immutability** — receipts cannot be modified after creation  
-2. **Chain Integrity** — each receipt references its predecessor  
-3. **Completeness** — all steps MUST produce receipts  
-4. **Atomicity** — no step is valid without a receipt  
+1.  **Immutability** --- receipts cannot be modified after creation\
+2.  **Chain Integrity** --- each receipt references its predecessor\
+3.  **Completeness** --- all steps MUST produce receipts\
+4.  **Atomicity** --- no step is valid without a receipt
 
----
+------------------------------------------------------------------------
 
 ## 5. Execution Boundary Enforcement
 
 Execution MUST satisfy:
 
-```
-IF receipt_generated == false THEN execution_commit == false
-```
+    IF receipt_generated == false THEN execution_commit == false
 
----
+------------------------------------------------------------------------
 
-Execution Receipts MUST be generated as part of the execution process and MUST NOT be generated retroactively.
+Execution Receipts MUST be generated as part of the execution process
+and MUST NOT be generated retroactively.
 
----
+------------------------------------------------------------------------
 
 ## 6. Adversarial Considerations
 
 The system MUST detect:
 
-- tampering
-- reordering
-- deletion
-- insertion
+-   tampering
+-   reordering
+-   deletion
+-   insertion
 
----
+------------------------------------------------------------------------
 
 ## 7. Security Model
 
-Execution Receipts rely on:
-- cryptographic hashing
-- optional signatures
-- optional external timestamping
+Execution Receipts rely on: - cryptographic hashing - optional
+signatures - optional external timestamping
 
----
+------------------------------------------------------------------------
 
 ## 8. Deterministic Replay
 
 Receipts enable:
 
-- replay validation
-- drift detection
-- reproducibility guarantees
+-   replay validation
+-   drift detection
+-   reproducibility guarantees
 
----
+------------------------------------------------------------------------
 
 ## 9. Comparison
 
-| Feature | Logs | Execution Receipts |
-|--------|------|-------------------|
-| Integrity | Weak | Strong |
-| Replay | No | Yes |
-| Governance | External | Embedded |
+  Feature      Logs       Execution Receipts
+  ------------ ---------- --------------------
+  Integrity    Weak       Strong
+  Replay       No         Yes
+  Governance   External   Embedded
 
----
+------------------------------------------------------------------------
 
 ## 10. Conclusion
 
 Execution Receipts redefine execution from observable to provable.
 
----
+------------------------------------------------------------------------
 
 ## Key Statement
 
@@ -163,136 +161,77 @@ Execution Receipts redefine execution from observable to provable.
 
 ## 11. Claims Scope (Informal)
 
-This document establishes prior art and claims conceptual precedence for:
+This document establishes prior art and claims conceptual precedence
+for:
 
-- Execution-bound commit enforcement
-- Step-level cryptographic execution receipts
-- Deterministic execution provenance graphs
-- Policy and authorization binding to execution proof
+-   Execution-bound commit enforcement
+-   Step-level cryptographic execution receipts
+-   Deterministic execution provenance graphs
+-   Policy and authorization binding to execution proof
 
 ## 12. Formal Guarantees
 
 A system implementing Execution Receipts MUST guarantee:
 
-1. **Non-Bypassability**
-   - No execution step MAY complete without generating a valid receipt
-
-2. **Causal Integrity**
-   - All execution steps MUST be represented in the receipt chain
-
-3. **Temporal Consistency**
-   - Receipt timestamps MUST reflect execution ordering
-
-4. **State Commitment Binding**
-   - System state changes MUST be contingent on receipt generation
-
-5. **Verifiability**
-   - Any third party MUST be able to validate execution integrity using receipts alone
+1.  **Non-Bypassability**
+    -   No execution step MAY complete without generating a valid
+        receipt
+2.  **Causal Integrity**
+    -   All execution steps MUST be represented in the receipt chain
+3.  **Temporal Consistency**
+    -   Receipt timestamps MUST reflect execution ordering
+4.  **State Commitment Binding**
+    -   System state changes MUST be contingent on receipt generation
+5.  **Verifiability**
+    -   Any third party MUST be able to validate execution integrity
+        using receipts alone
 
 ## 13. Execution Boundary Definition
 
 The execution boundary is defined as the point at which:
 
-- a step's effects become externally observable
-- system state transitions are committed
+-   a step's effects become externally observable
+-   system state transitions are committed
 
 Execution Receipts MUST be generated prior to crossing this boundary.
 
-Crossing the execution boundary without a valid receipt constitutes a system violation.
-
+Crossing the execution boundary without a valid receipt constitutes a
+system violation.
 
 ## 14. Bypass Scenarios
 
 The system MUST explicitly prevent:
 
-1. **Silent Execution**
-   - Execution without receipt generation
+1.  **Silent Execution**
+    -   Execution without receipt generation
+2.  **Deferred Receipt Generation**
+    -   Receipts created after execution completion
+3.  **Partial Execution Recording**
+    -   Missing steps in receipt chain
+4.  **Receipt Substitution**
+    -   Replacing receipts without detection
+5.  **Out-of-Band State Mutation**
+    -   State changes not captured by receipts
 
-2. **Deferred Receipt Generation**
-   - Receipts created after execution completion
+This specification defines execution as a **first-class verifiable
+construct**, not an emergent property of system logs.
 
-3. **Partial Execution Recording**
-   - Missing steps in receipt chain
+## Intellectual Property and Licensing
 
-4. **Receipt Substitution**
-   - Replacing receipts without detection
+This RFC constitutes a public disclosure and forms part of the
+CaralisLabs governed-execution research and RFC portfolio.
 
-5. **Out-of-Band State Mutation**
-   - State changes not captured by receipts
+The concepts, models, terminology, and architectural approaches
+described herein are subject to the intellectual-property and licensing
+terms defined in the RFC portfolio's `LEGAL.md`.
 
+Publication of this RFC establishes public evidence of authorship,
+conceptual development, and prior art. No additional license, assignment
+of intellectual property, patent rights, trademark rights, or commercial
+implementation rights is granted by this RFC except as expressly stated
+in `LEGAL.md` or in a separate written agreement.
 
-This specification defines execution as a **first-class verifiable construct**, not an emergent property of system logs.
-
-## IP & Licensing Considerations
-
-This document is a public disclosure intended to:
-
-- establish prior art for the concepts described herein  
-- document authorship and evolution of the proposed models  
-- enable open discussion and architectural exploration  
-
-All concepts, models, and frameworks described in this document are:
-
-- authored and published by the author prior to any external engagement  
-- part of an ongoing body of work related to execution architecture and AI system design  
-
-### Pre-Existing Intellectual Property
-
-All intellectual property described in this document constitutes **pre-existing work** of the author.
-
-Any future collaboration, consulting engagement, or implementation:
-
-- does not grant ownership over the concepts described herein  
-- does not transfer rights to the underlying models, frameworks, or architectural approaches  
-- must be governed by explicit agreement if derivative work ownership is to be assigned  
-
-### Scope of Use
-
-This document permits:
-
-- discussion and reference  
-- implementation and adaptation of ideas  
-- extension within other systems  
-
-However, this document does not grant:
-
-- exclusive rights to the concepts  
-- ownership of the original frameworks  
-- rights to proprietary implementations derived from the author's work  
-
-### Implementation Distinction
-
-A distinction is made between:
-
-- **Conceptual Models (this document)** → publicly disclosed and attributable  
-- **Implementations (systems, platforms, code)** → may be proprietary and independently owned  
-
-### No Implicit Assignment
-
-No rights, ownership, or claims are transferred implicitly through:
-
-- access to this document  
-- discussion of its contents  
-- application of its ideas  
-
-Any assignment of rights must be:
-
-- explicit  
-- documented  
-- mutually agreed upon  
-
----
-
-## License
-
-This document is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
-
-You are free to:
-
-- Share  
-- Adapt  
-- Build upon  
-
-Provided that:
-
-- Proper credit is given to the author.
+Earlier revisions of this RFC may have been published under different
+license terms. Rights validly granted under those earlier terms are not
+purported to be revoked by this revision. See `LEGAL.md` for the
+portfolio licensing history and current policy.
