@@ -7,8 +7,8 @@ Platforms**, **Domain Capabilities**, **Portable Governed Execution**,
 **Capability-Driven Enterprise Architecture**, **Execution Governance**,
 **Federated Execution**, **Federated Execution Operator Ecosystems**,
 **Value Creation and Attribution**, **Intelligence Economics**,
-**Knowledge Compounding**, and related execution-centric architectural
-and economic models.
+**Knowledge Compounding**, **Knowledge Debt**, **Epistemic Observability**,
+and related execution-centric architectural, epistemic, and economic models.
 
 See **PUBLICATIONS.md** for publications and public disclosures.
 
@@ -86,6 +86,9 @@ This research program currently explores:
 -   Sustainable Platform Research and Development
 -   Intelligence Economics
 -   Knowledge Compounding
+-   Knowledge Debt Formation
+-   Epistemic Observability
+-   Human–Agent Knowledge Assimilation
 -   Execution Economics
 -   Organizational Transformation
 
@@ -208,17 +211,21 @@ Shared Value Creation*
 
 ------------------------------------------------------------------------
 
-## Intelligence
+## Intelligence & Knowledge
 
 14. TF-RFC-0012 --- Intelligence Economics
 
 15. TF-RFC-0013 --- Knowledge Compounding Theory
 
+16. TF-RFC-0021 --- Knowledge Debt Formation in Human and Agentic Systems
+
+*Time transforms opacity either into intuition or into debt.*
+
 ------------------------------------------------------------------------
 
 ## Economics
 
-16. TF-RFC-0014 --- Execution Economics Framework
+17. TF-RFC-0014 --- Execution Economics Framework
 
 ------------------------------------------------------------------------
 
@@ -337,6 +344,8 @@ creation.
   **TF-RFC-0019**   **Federated Execution Operator Ecosystems**
 
   **TF-RFC-0020**   **Domain Capabilities and Portable Governed Execution**
+
+  **TF-RFC-0021**   **Knowledge Debt Formation in Human and Agentic Systems**
   -------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
@@ -383,6 +392,10 @@ Economic Participation
 Intelligence Economics
         ↓
 Knowledge Compounding
+        ↓
+Knowledge Debt Formation
+        ↓
+Epistemic Observability
         ↓
 Execution Economics
         ↓
@@ -436,6 +449,88 @@ establishes the architectural direction while leaving implementation
 mechanisms, internal runtime behavior, packaging, resource resolution,
 trust mechanisms, compatibility resolution, and other realization
 details to separate specifications or proprietary implementations.
+
+------------------------------------------------------------------------
+
+# 🧠 Knowledge Compounding, Knowledge Debt & Epistemic Observability
+
+**TF-RFC-0013 --- Knowledge Compounding Theory (KCT)** examines how
+experience can be extracted into durable concepts whose value persists,
+transfers, connects, and compounds across time and domains.
+
+**TF-RFC-0021 --- Knowledge Debt Formation in Human and Agentic Systems**
+examines the complementary condition: what happens when consequential
+system knowledge is created or changed faster than responsible humans and
+institutions can extract, assimilate, preserve, and connect the conceptual,
+causal, and predictive models required to reason about what they own.
+
+The relationship can be summarized as:
+
+``` text
+Experience
+   ↓
+Experience Extraction
+   ↓
+Durable Concepts
+   ↓
+Knowledge Compounding
+```
+
+while insufficient assimilation may produce:
+
+``` text
+Consequential Change
+   ↓
+Unassimilated Reasoning
+   ↓
+Epistemic Lag
+   ↓
+Knowledge Debt
+```
+
+The research deliberately distinguishes **implementation opacity** from
+**Knowledge Debt**. Mature black boxes can hide enormous implementation
+complexity while preserving the conceptual and predictive models humans
+need. Knowledge Debt forms when consequential system evolution,
+abstraction mutation, and decision throughput exceed the rate at which
+human and institutional understanding can form.
+
+The agentic transition is especially relevant because autonomous agents
+can create, modify, compose, and compress abstractions at machine speed,
+while human intuition formation remains time-dependent.
+
+A central proposition of TF-RFC-0021 is:
+
+> **Time transforms opacity either into intuition or into debt.**
+
+Governable execution systems introduce a further research direction.
+Execution infrastructure can make intent, authority, resolution,
+capability selection, target selection, execution, evidence, and results
+observable. While such evidence cannot directly measure human cognition,
+it may provide measurable proxies for Knowledge Debt formation, including
+rates of autonomous consequential change, agent-to-agent handoffs,
+abstraction mutation, human participation, decision provenance, and
+epistemic lag.
+
+This motivates a possible research progression:
+
+``` text
+Execution Observability
+        ↓
+Decision Provenance
+        ↓
+Knowledge Debt Formation Indicators
+        ↓
+Epistemic Risk Assessment
+        ↓
+Knowledge Debt Controls
+```
+
+This repository does not claim that TextFind, PER, Kubepath, or other
+current CaralisLabs systems presently measure Knowledge Debt. The subject
+is established as an open research direction connecting knowledge
+formation, agentic execution, governable execution, and execution
+evidence.
 
 ------------------------------------------------------------------------
 
@@ -523,7 +618,9 @@ toward
 
 As AI systems become increasingly autonomous, execution itself becomes
 an architectural concern deserving dedicated models, platforms,
-governance mechanisms, and economic frameworks.
+governance mechanisms, economic frameworks, and potentially epistemic
+observability mechanisms capable of identifying conditions under which
+machine-mediated change may outrun human and institutional understanding.
 
 As execution infrastructure becomes independently deployable and
 operable, Deployment Units may enable local businesses, specialized
@@ -535,6 +632,10 @@ value created through governed execution.
 # 🔥 Key Ideas
 
 > Intelligence creates potential.
+
+> Knowledge can compound when experience is extracted into durable concepts.
+
+> Knowledge Debt can form when consequential change outruns understanding.
 
 > Execution realizes value.
 
@@ -549,6 +650,8 @@ value created through governed execution.
 > Workflow Engines organize work.
 
 > AI Agent Frameworks organize reasoning.
+
+> Time transforms opacity either into intuition or into debt.
 
 > Governed Execution Platforms organize trusted execution.
 
