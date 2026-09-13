@@ -7,8 +7,11 @@ Platforms**, **Domain Capabilities**, **Portable Governed Execution**,
 **Capability-Driven Enterprise Architecture**, **Execution Governance**,
 **Federated Execution**, **Federated Execution Operator Ecosystems**,
 **Value Creation and Attribution**, **Intelligence Economics**,
-**Knowledge Compounding**, **Knowledge Debt**, **Epistemic Observability**,
-and related execution-centric architectural, epistemic, and economic models.
+**Knowledge Compounding**, **Knowledge Debt**, **Epistemic
+Observability**, **Organizational Entropy**, **Organizational
+Reachability**, and **Computational Organizational Dynamics**, and
+related execution-centric architectural, epistemic, organizational, and
+economic models.
 
 See **PUBLICATIONS.md** for publications and public disclosures.
 
@@ -88,8 +91,12 @@ This research program currently explores:
 -   Knowledge Compounding
 -   Knowledge Debt Formation
 -   Epistemic Observability
--   Human–Agent Knowledge Assimilation
+-   Human--Agent Knowledge Assimilation
 -   Execution Economics
+-   Organizational Entropy
+-   Organizational Reachability
+-   Computational Organizational Dynamics
+-   Outcome-Preserving Organizational Reconfiguration
 -   Organizational Transformation
 
 ------------------------------------------------------------------------
@@ -217,7 +224,8 @@ Shared Value Creation*
 
 15. TF-RFC-0013 --- Knowledge Compounding Theory
 
-16. TF-RFC-0021 --- Knowledge Debt Formation in Human and Agentic Systems
+16. TF-RFC-0021 --- Knowledge Debt Formation in Human and Agentic
+    Systems
 
 *Time transforms opacity either into intuition or into debt.*
 
@@ -226,6 +234,14 @@ Shared Value Creation*
 ## Economics
 
 17. TF-RFC-0014 --- Execution Economics Framework
+
+------------------------------------------------------------------------
+
+## Organizational Execution & Dynamics
+
+18. TF-RFC-0022 --- Computational Organizational Dynamics (COD)
+
+*Reasoning About Organizational Execution Through Explicit Primitives*
 
 ------------------------------------------------------------------------
 
@@ -269,24 +285,24 @@ this evolution.
 
 # 🧠 Platform Categories
 
-  ------------------------------------------------------------------------
-  Platform Category            Primary Concern               Primary
-                                                             Abstraction
-  ---------------------------- ----------------------------- -------------
-  Data Processing Platforms    Data transformation           Data
+  ----------------------------------------------------------------------
+  Platform Category           Primary Concern              Primary
+                                                           Abstraction
+  --------------------------- ---------------------------- -------------
+  Data Processing Platforms   Data transformation          Data
 
-  Workflow Engines             Work coordination             Tasks
+  Workflow Engines            Work coordination            Tasks
 
-  AI Agent Frameworks          Autonomous reasoning          Reasoning
+  AI Agent Frameworks         Autonomous reasoning         Reasoning
 
-  **Governed Execution         Trusted execution             Execution
-  Platforms**                                                
+  **Governed Execution        Trusted execution            Execution
+  Platforms**                                              
 
-  **Domain Capabilities**      Governed, portable abilities  Capability
+  **Domain Capabilities**     Governed, portable abilities Capability
 
-  **Federated Execution        Distributed operation and     Deployment
-  Operator Ecosystems**        value participation           Units
-  ------------------------------------------------------------------------
+  **Federated Execution       Distributed operation and    Deployment
+  Operator Ecosystems**       value participation          Units
+  ----------------------------------------------------------------------
 
 Governed Execution Platforms complement rather than replace existing
 platform categories.
@@ -300,9 +316,9 @@ creation.
 
 # 📘 RFC Overview
 
-  -------------------------------------------------------------------------
+  ----------------------------------------------------------------------
   RFC               Focus
-  ----------------- -------------------------------------------------------
+  ----------------- ----------------------------------------------------
   TF-RFC-0001       Execution Receipts
 
   TF-RFC-0002       Execution Provenance Graph
@@ -331,7 +347,8 @@ creation.
 
   TF-RFC-0014       Execution Economics Framework
 
-  TF-RFC-0015       Operational Assurance & Autonomous Execution Assurance
+  TF-RFC-0015       Operational Assurance & Autonomous Execution
+                    Assurance
 
   TF-RFC-0016       Execution Governance Reference Model
 
@@ -343,10 +360,14 @@ creation.
 
   **TF-RFC-0019**   **Federated Execution Operator Ecosystems**
 
-  **TF-RFC-0020**   **Domain Capabilities and Portable Governed Execution**
+  **TF-RFC-0020**   **Domain Capabilities and Portable Governed
+                    Execution**
 
-  **TF-RFC-0021**   **Knowledge Debt Formation in Human and Agentic Systems**
-  -------------------------------------------------------------------------
+  **TF-RFC-0021**   **Knowledge Debt Formation in Human and Agentic
+                    Systems**
+
+  **TF-RFC-0022**   **Computational Organizational Dynamics (COD)**
+  ----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
@@ -398,6 +419,12 @@ Knowledge Debt Formation
 Epistemic Observability
         ↓
 Execution Economics
+        ↓
+Organizational Entropy
+        ↓
+Organizational Reachability
+        ↓
+Computational Organizational Dynamics
         ↓
 Execution Economy
 ```
@@ -458,11 +485,12 @@ details to separate specifications or proprietary implementations.
 experience can be extracted into durable concepts whose value persists,
 transfers, connects, and compounds across time and domains.
 
-**TF-RFC-0021 --- Knowledge Debt Formation in Human and Agentic Systems**
-examines the complementary condition: what happens when consequential
-system knowledge is created or changed faster than responsible humans and
-institutions can extract, assimilate, preserve, and connect the conceptual,
-causal, and predictive models required to reason about what they own.
+**TF-RFC-0021 --- Knowledge Debt Formation in Human and Agentic
+Systems** examines the complementary condition: what happens when
+consequential system knowledge is created or changed faster than
+responsible humans and institutions can extract, assimilate, preserve,
+and connect the conceptual, causal, and predictive models required to
+reason about what they own.
 
 The relationship can be summarized as:
 
@@ -507,10 +535,10 @@ Governable execution systems introduce a further research direction.
 Execution infrastructure can make intent, authority, resolution,
 capability selection, target selection, execution, evidence, and results
 observable. While such evidence cannot directly measure human cognition,
-it may provide measurable proxies for Knowledge Debt formation, including
-rates of autonomous consequential change, agent-to-agent handoffs,
-abstraction mutation, human participation, decision provenance, and
-epistemic lag.
+it may provide measurable proxies for Knowledge Debt formation,
+including rates of autonomous consequential change, agent-to-agent
+handoffs, abstraction mutation, human participation, decision
+provenance, and epistemic lag.
 
 This motivates a possible research progression:
 
@@ -527,10 +555,133 @@ Knowledge Debt Controls
 ```
 
 This repository does not claim that TextFind, PER, Kubepath, or other
-current CaralisLabs systems presently measure Knowledge Debt. The subject
-is established as an open research direction connecting knowledge
-formation, agentic execution, governable execution, and execution
-evidence.
+current CaralisLabs systems presently measure Knowledge Debt. The
+subject is established as an open research direction connecting
+knowledge formation, agentic execution, governable execution, and
+execution evidence.
+
+------------------------------------------------------------------------
+
+# 🧭 Organizational Entropy, Reachability & Computational Organizational Dynamics
+
+**TF-RFC-0022 --- Computational Organizational Dynamics (COD)** extends
+the research from intelligence and execution economics toward the
+structure through which organizations convert capability into outcomes.
+
+The RFC begins from a distinction between **local execution capacity**
+and **organizational execution capacity**. AI may allow individuals,
+teams, agents, and software systems to perform more work locally while
+the organization remains constrained by integration, dependencies,
+authority, policies, infrastructure, coordination, and the ability to
+turn activity into operational outcomes.
+
+This creates the possibility of **Organizational Entropy**:
+
+> **Organizational Entropy is the growth of unnecessary, conflicting,
+> redundant, opaque, or poorly coordinated execution possibilities
+> within an organization as available capabilities and local autonomy
+> increase faster than the organization's ability to coherently organize
+> them toward outcomes.**
+
+The resulting progression can be represented as:
+
+``` text
+Intelligence Abundance
+        ↓
+Local Capability Expansion
+        ↓
+Possible Execution Paths Expand
+        ↓
+Coordination / Selection / Governance Pressure
+        ↓
+Potential Organizational Entropy
+```
+
+TF-RFC-0022 introduces **Organizational Reachability** as a
+complementary concept. Rather than asking only whether individual
+departments, systems, or participants possess useful capabilities,
+reachability asks:
+
+> **Given the organization's current capabilities, implementations,
+> authority, constraints and infrastructure, does a legitimate
+> executable path exist from the current state to the desired outcome?**
+
+A failed path may reveal a capability gap, implementation gap, authority
+or authorization gap, policy conflict, infrastructure constraint,
+dependency failure, evidence gap, or coordination gap.
+
+The RFC also distinguishes the **Administrative Organization** from the
+**Execution Organization**.
+
+``` text
+Administrative Organization
+
+People
+  ↓
+Roles
+  ↓
+Teams
+  ↓
+Departments
+  ↓
+Reporting Structures
+```
+
+while an execution-oriented representation may be expressed as:
+
+``` text
+Execution Organization
+
+Goals
+  ↓
+Capabilities
+  ↓
+Implementations
+  ↓
+Dependencies
+  ↓
+Authority
+  ↓
+Constraints
+  ↓
+Infrastructure
+  ↓
+Execution
+  ↓
+Evidence
+  ↓
+Outcomes
+```
+
+These representations overlap, but they are not identical.
+
+The central hypothesis of TF-RFC-0022 is:
+
+> **If organizational capabilities, executable implementations,
+> composition rules, authority, infrastructure and outcomes can be
+> represented through sufficiently well-defined primitives, then
+> portions of organizational structure may become computationally
+> reasoned about, simulated, composed and adaptively reconfigured.**
+
+The framework further introduces **Outcome-Preserving Organizational
+Reconfiguration**: reasoning about what may need to change inside an
+organization when environmental conditions change but a desired outcome
+should remain stable.
+
+A foundational constraint applies throughout:
+
+> **Computational possibility is not execution authority.**
+
+Reasoning about, simulating, or proposing an organizational
+configuration does not confer authority to instantiate it.
+
+TF-RFC-0022 is intentionally implementation-independent. It establishes
+a public research direction around organizational execution,
+reachability, entropy, counterfactual reasoning, and adaptive
+configuration while leaving specific runtimes, protocols, composition
+mechanisms, capability-discovery mechanisms, authorization
+implementations, algorithms, data models, and product realizations to
+separate specifications or implementations.
 
 ------------------------------------------------------------------------
 
@@ -616,11 +767,21 @@ toward
 
 > attributable and sustainable economic participation
 
+The research now also extends:
+
+> From organizations as largely inherited administrative structures
+
+toward
+
+> organizational execution structures that can be observed, reasoned
+> about, simulated, and adaptively reconfigured around desired outcomes
+
 As AI systems become increasingly autonomous, execution itself becomes
 an architectural concern deserving dedicated models, platforms,
 governance mechanisms, economic frameworks, and potentially epistemic
 observability mechanisms capable of identifying conditions under which
-machine-mediated change may outrun human and institutional understanding.
+machine-mediated change may outrun human and institutional
+understanding.
 
 As execution infrastructure becomes independently deployable and
 operable, Deployment Units may enable local businesses, specialized
@@ -633,9 +794,24 @@ value created through governed execution.
 
 > Intelligence creates potential.
 
-> Knowledge can compound when experience is extracted into durable concepts.
+> Knowledge can compound when experience is extracted into durable
+> concepts.
 
-> Knowledge Debt can form when consequential change outruns understanding.
+> Knowledge Debt can form when consequential change outruns
+> understanding.
+
+> Local execution capacity can become abundant while coherent
+> organizational execution remains scarce.
+
+> Organizational Entropy can increase when capability and local autonomy
+> expand faster than the organization can coherently organize execution
+> toward outcomes.
+
+> Organizational Reachability asks whether legitimate intent can reach a
+> desired outcome through available capabilities, authority,
+> constraints, dependencies, and infrastructure.
+
+> Computational possibility is not execution authority.
 
 > Execution realizes value.
 
