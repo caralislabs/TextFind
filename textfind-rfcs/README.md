@@ -9,7 +9,7 @@ Platforms**, **Domain Capabilities**, **Portable Governed Execution**,
 **Value Creation and Attribution**, **Intelligence Economics**,
 **Knowledge Compounding**, **Knowledge Debt**, **Epistemic
 Observability**, **Organizational Entropy**, **Organizational
-Reachability**, and **Computational Organizational Dynamics**, and
+Reachability**, and **Computational Organizational Dynamics**, **Independent Submission, Evidence, and Delegated Representation**, and
 related execution-centric architectural, epistemic, organizational, and
 economic models.
 
@@ -98,6 +98,9 @@ This research program currently explores:
 -   Computational Organizational Dynamics
 -   Outcome-Preserving Organizational Reconfiguration
 -   Organizational Transformation
+-   Independent Submission & Reciprocal Evidence
+-   User-Controlled Delegation & Representation
+-   Institutional Interaction Evidence
 
 ------------------------------------------------------------------------
 
@@ -245,6 +248,14 @@ Shared Value Creation*
 
 ------------------------------------------------------------------------
 
+## Independent Evidence & Delegated Representation
+
+19. TF-RFC-0023 --- Independent Submission, Evidence, and Delegated Representation (ISEDR)
+
+*No consequential request without a receipt. No consequential interaction without reciprocal evidence.*
+
+------------------------------------------------------------------------
+
 # 🧩 Architectural Evolution
 
 Enterprise platforms have evolved by optimizing different architectural
@@ -367,6 +378,8 @@ creation.
                     Systems**
 
   **TF-RFC-0022**   **Computational Organizational Dynamics (COD)**
+
+  **TF-RFC-0023**   **Independent Submission, Evidence, and Delegated Representation (ISEDR)**
   ----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
@@ -425,6 +438,8 @@ Organizational Entropy
 Organizational Reachability
         ↓
 Computational Organizational Dynamics
+        ↓
+Independent Submission, Evidence & Delegated Representation
         ↓
 Execution Economy
 ```
@@ -685,6 +700,42 @@ separate specifications or implementations.
 
 ------------------------------------------------------------------------
 
+# 🧾 Independent Submission, Evidence & Delegated Representation
+
+**TF-RFC-0023 --- Independent Submission, Evidence, and Delegated Representation (ISEDR)** explores an independent evidence layer for consequential interactions between individuals, representatives, and institutions.
+
+The model begins from two principles:
+
+> **No consequential request without a receipt.**
+
+> **No consequential interaction without reciprocal evidence.**
+
+A user may create an encrypted or otherwise protected submission, retain evidence of what was submitted and when, and receive a durable receipt even when the intended institution does not provide a reliable intake or acknowledgement channel. The model distinguishes proof of submission or notification from any legal claim of institutional receipt.
+
+ISEDR further introduces **user-controlled delegated representation**. A user may explicitly authorize a lawyer, advocate, professional, or other representative to access defined content and act within a limited scope, purpose, recipient context, and validity period. Delegated authority does not arise merely from technical access.
+
+The research also considers institution-facing channels, authenticated acknowledgements, reciprocal execution evidence, and privacy-preserving aggregation of user-provided claim metadata. Such aggregation may reveal interaction patterns without treating reported claims as independently verified facts or requiring disclosure of protected claim content.
+
+The conceptual progression is:
+
+``` text
+Individual Intent
+   ↓
+Protected Submission
+   ↓
+Independent Receipt & Evidence
+   ↓
+Scoped Delegation / Representation
+   ↓
+Institutional Notification or Delivery
+   ↓
+Acknowledgement & Subsequent Evidence
+```
+
+TF-RFC-0023 is intentionally implementation-independent. It establishes the conceptual architecture and terminology while leaving cryptographic mechanisms, protocols, data models, key management, representative networks, institutional integrations, legal-service arrangements, and commercial implementations to separate specifications or proprietary implementations.
+
+------------------------------------------------------------------------
+
 # 🏗 Relationship to TextFind + PER
 
 This repository documents implementation-independent architectural
@@ -783,6 +834,8 @@ observability mechanisms capable of identifying conditions under which
 machine-mediated change may outrun human and institutional
 understanding.
 
+The research also extends governed execution and execution evidence toward interactions between individuals and institutions, exploring how independent receipts, reciprocal evidence, scoped delegation, and representation may make consequential submissions more traceable without requiring the evidence layer to control or necessarily inspect protected content.
+
 As execution infrastructure becomes independently deployable and
 operable, Deployment Units may enable local businesses, specialized
 services, capability ecosystems, and new forms of participation in the
@@ -849,6 +902,12 @@ value created through governed execution.
 
 > The Execution Economy should not only scale execution. It should make
 > value creation more visible and participation more accessible.
+
+> No consequential request without a receipt.
+
+> No consequential interaction without reciprocal evidence.
+
+> Technical access does not itself confer delegated authority.
 
 ------------------------------------------------------------------------
 
