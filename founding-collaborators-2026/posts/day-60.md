@@ -2,8 +2,8 @@
 
 **Status:** Ready for publication  
 **Publication date:** October 27, 2026  
-**LinkedIn:** To be added  
-**Facebook:** To be added
+**LinkedIn:** https://www.linkedin.com/feed/update/urn:li:activity:7521015503130308608/ 
+**Facebook:** N/A
 
 ---
 
