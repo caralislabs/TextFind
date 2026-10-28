@@ -29,8 +29,14 @@ Jointly developed work, use of pre-existing IP, contributions to CaralisLabs rep
 
 Governed execution is distinct from control over external resources. An adopted or externally operated resource does not automatically become CaralisLabs-managed, and an unmanaged PE does not automatically gain access to CaralisLabs-managed resources. Trials and sponsorship arrangements must respect security, consent, resource limits, and applicable agreements.
 
-## How to express interest
 
-Send CaralisLabs a **direct message on LinkedIn** describing who you are, what you might contribute, and what you would like to explore. We will review expressions of interest during the campaign and communicate next steps individually.
+### How to express interest
+
+Send a **direct message on LinkedIn** to [Nicolae Dumitru Caralicea](https://www.linkedin.com/in/nicolae-dumitru-caralicea-136753277/), founder of CaralisLabs.
+
+Tell us a little about yourself, what you might contribute, and what you would like to explore.
+
+We will review expressions of interest throughout the campaign and communicate next steps individually.
+
 
 See [VISION.md](VISION.md) and the repository's [LEGAL.md](../LEGAL.md) for background and IP context.
