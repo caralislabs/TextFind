@@ -5,6 +5,9 @@
 **Status:** Ready for publication  
 **Contact:** [Nicolae Dumitru Caralicea on LinkedIn](https://www.linkedin.com/in/nicolae-dumitru-caralicea-136753277/)
 
+**LinkedIn** (https://www.linkedin.com/feed/update/urn:li:activity:7522797479545929728/)
+(https://www.linkedin.com/feed/update/urn:li:activity:7522798427894845440/)
+
 ---
 
 ## Introducing CARALIS OS
