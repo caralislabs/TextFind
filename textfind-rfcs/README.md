@@ -1,7 +1,7 @@
 # Execution Economy Research
 
 Public architectural disclosures, RFCs, research documents, and
-conceptual foundations supporting **TextFind**, the **Policy Execution
+conceptual foundations supporting **TextFind**, the **Pipeline Execution
 Runtime (PER)**, the **Execution Economy**, **Governed Execution
 Platforms**, **Domain Capabilities**, **Portable Governed Execution**,
 **Capability-Driven Enterprise Architecture**, **Execution Governance**,
@@ -193,6 +193,10 @@ increasingly abundant.
     [TF-RFC-0024 --- Deployment Units and the CARALIS OS Operating Model](deployment-units/README.md)
 
     *Infrastructure, Platform, operational, and illustrative UX boundaries.*
+
+    [PER — Processing Elements, Pipelines, and Governed Execution](per/README.md)
+
+    *Composable execution graphs, reusable Processing Elements, runtime execution, and illustrative PER interfaces.*
 
 ------------------------------------------------------------------------
 
@@ -386,6 +390,8 @@ creation.
   **TF-RFC-0023**   **Independent Submission, Evidence, and Delegated Representation (ISEDR)**
 
   **TF-RFC-0024**   **[Deployment Units and the CARALIS OS Operating Model](deployment-units/README.md)**
+
+  **PER disclosure**  **[Processing Elements, Pipelines, and Governed Execution](per/README.md)** (RFC ID pending)
   ----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
@@ -509,6 +515,18 @@ A **Deployment Unit** provides a defined operational context for deploying and m
 The disclosure includes **four illustrative interface previews** showing the Operator Console, Deployment Unit overview, Platform management, and component catalogs. These are conceptual visualizations, not evidence that every depicted control, count, status, or workflow is currently implemented. Actual interfaces may evolve.
 
 TF-RFC-0024 complements TF-RFC-0018 --- Governed Execution Platforms and TF-RFC-0019 --- Federated Execution Operator Ecosystems. It documents an operating model without publishing confidential deployment mechanisms or asserting exclusive rights to the abstract idea of a Deployment Unit.
+
+------------------------------------------------------------------------
+
+# ⚙️ PER — Processing Elements, Pipelines, and Governed Execution
+
+**[PER — Processing Elements, Pipelines, and Governed Execution](per/README.md)** introduces the **Pipeline Execution Runtime (PER)** as the execution foundation for composing and running reusable **Processing Elements (PEs)** through defined **Pipelines**.
+
+Processing Elements encapsulate executable operations. Pipelines organize those elements into dependency graphs and may incorporate nested Pipelines and human participation. PER coordinates execution and exposes execution state, results, and traces within the broader CARALIS OS Platform context.
+
+The disclosure includes **illustrative PER interface previews** for pipeline authoring, composition, and execution. These visuals are conceptual presentations rather than authenticated production screenshots or evidence of fully validated deployment.
+
+The PER publication complements the [Deployment Units operating model](deployment-units/README.md): Deployment Units address where Platforms and their supporting infrastructure are operated; PER addresses how composed executable work is carried out within a Platform. Implementation details and confidential runtime mechanisms are not disclosed.
 
 ------------------------------------------------------------------------
 
@@ -759,8 +777,9 @@ TF-RFC-0023 is intentionally implementation-independent. It establishes the conc
 This repository documents implementation-independent architectural
 models.
 
-**TextFind** and the **Policy Execution Runtime (PER)** represent one
-implementation of these architectural concepts.
+**TextFind** and the **Pipeline Execution Runtime (PER)** are part of the implementation lineage of these architectural concepts. PER provides a composable execution foundation within the broader CARALIS OS architecture.
+
+See the [PER public disclosure](per/README.md) for its Processing Element and Pipeline model.
 
 The architectural principles described throughout these RFCs are
 intentionally independent from any particular software implementation.
