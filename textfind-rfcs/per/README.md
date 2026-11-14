@@ -1,4 +1,4 @@
-# PER — Processing Elements, Pipelines, and Governed Execution
+# TF-RFC-0025 — PER — Processing Elements, Pipelines, and Governed Execution
 
 **RFC ID:** To be assigned  
 **Status:** Public Architectural Disclosure  

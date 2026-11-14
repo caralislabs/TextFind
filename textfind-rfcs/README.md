@@ -391,7 +391,7 @@ creation.
 
   **TF-RFC-0024**   **[Deployment Units and the CARALIS OS Operating Model](deployment-units/README.md)**
 
-  **PER disclosure**  **[Processing Elements, Pipelines, and Governed Execution](per/README.md)** (RFC ID pending)
+  **TF-RFC-0025**  **[Processing Elements, Pipelines, and Governed Execution](per/README.md)**
   ----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
