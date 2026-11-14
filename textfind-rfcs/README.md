@@ -190,6 +190,10 @@ increasingly abundant.
 
 9.  TF-RFC-0018 --- Governed Execution Platforms
 
+    [TF-RFC-0024 --- Deployment Units and the CARALIS OS Operating Model](deployment-units/README.md)
+
+    *Infrastructure, Platform, operational, and illustrative UX boundaries.*
+
 ------------------------------------------------------------------------
 
 ## Domain Capabilities & Portability
@@ -380,6 +384,8 @@ creation.
   **TF-RFC-0022**   **Computational Organizational Dynamics (COD)**
 
   **TF-RFC-0023**   **Independent Submission, Evidence, and Delegated Representation (ISEDR)**
+
+  **TF-RFC-0024**   **[Deployment Units and the CARALIS OS Operating Model](deployment-units/README.md)**
   ----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
@@ -491,6 +497,18 @@ establishes the architectural direction while leaving implementation
 mechanisms, internal runtime behavior, packaging, resource resolution,
 trust mechanisms, compatibility resolution, and other realization
 details to separate specifications or proprietary implementations.
+
+------------------------------------------------------------------------
+
+# 🏗 Deployment Units and the CARALIS OS Operating Model
+
+**[TF-RFC-0024 --- Deployment Units and the CARALIS OS Operating Model](deployment-units/README.md)** documents the relationship between CARALIS OS operator management, Deployment Units, infrastructure resources, independently managed Platforms, tenant organizations, component catalogs, and lifecycle operations.
+
+A **Deployment Unit** provides a defined operational context for deploying and managing compatible resources and Platform instances. The model separates infrastructure and deployment administration from the execution environments exposed through Platforms. Multiple Platforms may be associated with a Deployment Unit, with their own runtime and organizational contexts.
+
+The disclosure includes **four illustrative interface previews** showing the Operator Console, Deployment Unit overview, Platform management, and component catalogs. These are conceptual visualizations, not evidence that every depicted control, count, status, or workflow is currently implemented. Actual interfaces may evolve.
+
+TF-RFC-0024 complements TF-RFC-0018 --- Governed Execution Platforms and TF-RFC-0019 --- Federated Execution Operator Ecosystems. It documents an operating model without publishing confidential deployment mechanisms or asserting exclusive rights to the abstract idea of a Deployment Unit.
 
 ------------------------------------------------------------------------
 
