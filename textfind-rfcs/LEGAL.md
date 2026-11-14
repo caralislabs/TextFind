@@ -242,6 +242,57 @@ dates, revision history, authorship, and prior licensing terms.
 
 ------------------------------------------------------------------------
 
+## Authorship, Legal Identity, and Attribution Clarification (2026)
+
+For clarity across this repository and related CaralisLabs publications,
+the following names identify different roles:
+
+- **Caralis Inc.** is the incorporated legal entity associated with the
+  CaralisLabs brand. Where Caralis Inc. holds the applicable rights, it is
+  the copyright holder, licensor, or contracting party.
+- **CaralisLabs** is the public-facing brand and publishing identity used
+  for research, software, products, and communications. A reference to
+  CaralisLabs as a publisher or project name does not, by itself,
+  establish legal title to intellectual property.
+- **Nicolae Dumitru Caralicea** is the founder and an identified author
+  and contributor to the research and technical work. Authorship and
+  inventorship attribution are distinct from copyright ownership and
+  contractual licensing authority.
+
+For **new publications**, the preferred attribution format, where
+factually accurate, is:
+
+> **Author:** Nicolae Dumitru Caralicea  
+> **Publisher:** CaralisLabs (Caralis Inc.)  
+> **Copyright:** © [year] Caralis Inc., where Caralis Inc. owns the applicable rights  
+> **License:** As expressly stated for the material and in the applicable repository notices
+
+This clarification provides a consistent naming convention; it is **not
+an assignment, transfer, novation, or retroactive determination of
+ownership**. Rights in earlier works, personally authored material,
+third-party contributions, and jointly developed works remain subject to
+their actual ownership history and any applicable agreements. Where the
+ownership of particular material has not been established, its copyright
+holder should not be represented as conclusively determined by this
+section.
+
+Earlier notices using "CaralisLabs," "Caralis Inc.," or "Nicolae Dumitru
+Caralicea" should be interpreted in their original publication context
+and alongside the relevant evidence and agreements. This clarification
+does not rewrite historical authorship, invalidate earlier notices,
+withdraw permissions validly granted under earlier licenses (including
+CC BY 4.0 where applicable), or supersede explicit terms attached to
+individual works. It does not grant or reserve rights beyond those
+available under applicable law and agreements.
+
+For future collaborations, ownership of newly created work, rights to
+pre-existing contributions, licenses, confidentiality, and commercial
+participation should be specified in a separate written agreement as
+appropriate. Attribution, permission to publish, and entitlement to
+compensation are distinct questions.
+
+------------------------------------------------------------------------
+
 ## Final Note
 
 These documents contribute to the broader discussion around governed
